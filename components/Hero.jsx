@@ -19,7 +19,7 @@ const Hero = () => {
                 <Image src={coverMobile} layout="fill" objectFit='cover'
                     priority />
             </div>
-            <div className="absolute z-10 top-0 left-0 h-screen w-screen" ></div>
+            <div className="absolute bg-black/30 z-10 top-0 left-0 h-screen w-screen" ></div>
         </>
     )
 }
