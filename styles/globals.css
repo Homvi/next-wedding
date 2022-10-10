@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "luthier-regular";
+    font-weight: 700;
+    src: url(../public/assets/fonts/LuthierFF/Luthier-Regular.ttf);
+  }
+  @font-face {
+    font-family: "luthier-bold";
+    font-weight: 700;
+    src: url(../public/assets/fonts/LuthierFF/Luthier-Bold.ttf);
+  }
+  @font-face {
+    font-family: "luthier-italic";
+    font-weight: 700;
+    src: url(../public/assets/fonts/LuthierFF/Luthier-Italic.ttf);
+  }
+}
+
+.luthier-regular {
+  font-family: "luthier-regular", sans-serif;
+}
+
+.luthier-bold {
+  font-family: "luthier-bold", sans-serif;
+}
+
+.luthier-itelic {
+  font-family: "luthier-itelic", sans-serif;
+}
