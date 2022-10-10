@@ -11,10 +11,12 @@ const Hero = () => {
                 <input type="text" className='border-2 border-[#fdfbf7] m-2 rounded-xl bg-transparent px-2 ' />
             </div>
             <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden w-screen ">
-                <Image src={coverDesk} layout="responsive" objectFit='cover' />
+                <Image src={coverDesk} layout="responsive" objectFit='cover'
+                    priority />
             </div>
             <div className="absolute  lg:hidden top-0 left-0 h-screen overflow-y-hidden w-screen ">
-                <Image src={coverMobile} layout="fill" objectFit='cover' />
+                <Image src={coverMobile} layout="fill" objectFit='cover'
+                    priority />
             </div>
             <div className="absolute z-10 bg-white/30 top-0 left-0 h-screen w-screen" ></div>
         </>
