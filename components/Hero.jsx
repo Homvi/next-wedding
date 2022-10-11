@@ -8,12 +8,12 @@ const Hero = () => {
         <>
             {/*  access code */}
             <div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center' >
-                <h3 className='text-xl  drop-shadow-xl flex text-center p-2 luthier-regular' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
+                <h3 className='text-xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-regular' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
                 <input type="text" className='border-2 border-[#fdfbf7] m-2 rounded-xl bg-transparent px-2 ' />
                 <button className='luthier-regular px-2 bg-[#fdfbf7] text-[#ffbd59] rounded-xl'>Küldés</button>
             </div>
 
-            
+
 
             {/*  Desktop bcg */}
             <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden w-screen ">
