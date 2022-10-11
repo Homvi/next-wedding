@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import { getRemainingTimeUntilMsTimestamp } from "./utils/CountownTimerUtils"
 const defaultRemainingTime = {
     seconds: "00",
     minutes: "00",
@@ -21,7 +21,7 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
 
 
     const updateRemainingTime = (countdown) => {
-        console.log("Hello world");
+        setRemainingTime(getRemainingTimeUntilMsTimestamp(countdown))
     }
 
     return (
