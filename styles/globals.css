@@ -18,6 +18,16 @@
     font-weight: 700;
     src: url(../public/assets/fonts/LuthierFF/Luthier-Italic.ttf);
   }
+  @font-face {
+    font-family: "prata";
+    font-weight: 700;
+    src: url(../public/assets/fonts/Prata/Prata-Regular.ttf);
+  }
+  @font-face {
+    font-family: "parisienne";
+    font-weight: 700;
+    src: url(../public/assets/fonts/Parisienne/Parisienne-Regular.ttf);
+  }
 }
 
 .luthier-regular {
@@ -30,4 +40,12 @@
 
 .luthier-itelic {
   font-family: "luthier-itelic", sans-serif;
+}
+
+.prata {
+  font-family: "prata", sans-serif;
+}
+
+.parisienne {
+  font-family: "parisienne", sans-serif;
 }
