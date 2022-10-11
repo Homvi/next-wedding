@@ -19,6 +19,11 @@
     src: url(../public/assets/fonts/LuthierFF/Luthier-Italic.ttf);
   }
   @font-face {
+    font-family: "luthier-bold-italic";
+    font-weight: 700;
+    src: url(../public/assets/fonts/LuthierFF/Luthier-BoldItalic.ttf);
+  }
+  @font-face {
     font-family: "prata";
     font-weight: 700;
     src: url(../public/assets/fonts/Prata/Prata-Regular.ttf);
@@ -38,8 +43,12 @@
   font-family: "luthier-bold", sans-serif;
 }
 
-.luthier-itelic {
-  font-family: "luthier-itelic", sans-serif;
+.luthier-italic {
+  font-family: "luthier-italic", sans-serif;
+}
+
+.luthier-bold-italic {
+  font-family: "luthier-bold-italic", sans-serif;
 }
 
 .prata {
@@ -52,4 +61,8 @@
 
 .two-numbers {
   width: 2ch;
+}
+
+html{
+  overflow-x: hidden;
 }

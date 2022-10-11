@@ -20,7 +20,7 @@ const Hero = () => {
     return (
         <>
 
-            <nav className='absolute w-screen z-30 top-0 flex justify-end' >{actualUser && <div className='luthier-regular italic text-[#fdfbf7] drop-shadow-lg  p-1' >Üdv, {actualUser}</div>}</nav>
+            <nav className='absolute w-screen z-30 top-0  flex justify-end' >{actualUser && <div className='luthier-regular italic text-[#fdfbf7] drop-shadow-lg  p-1' >Üdv, {actualUser}</div>}</nav>
 
             {/*  access code */}
 
@@ -40,7 +40,7 @@ const Hero = () => {
 
 
             {/*  Desktop bcg */}
-            <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden w-screen ">
+            <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden  w-screen ">
                 <Image src={coverDesk} layout="responsive" objectFit='cover'
                 />
             </div>
