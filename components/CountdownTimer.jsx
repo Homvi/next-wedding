@@ -25,13 +25,13 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
     }
 
     return (
-        <div className="flex justify-cente prata p-2">
+        <div className="flex justify-cente prata p-2 lg:text-xl">
             <span>{remainingTime.days}</span>
-            <span>:</span>
+            <span className='leading-[23px]  px-[2px]' > : </span>
             <span className='two-numbers'>{remainingTime.hours}</span>
-            <span>:</span>
+            <span className='leading-[23px]  px-[2px]' > : </span>
             <span className='two-numbers' >{remainingTime.minutes}</span>
-            <span>:</span>
+            <span className='leading-[23px]  px-[2px]' > : </span>
             <span className='two-numbers' >{remainingTime.seconds}</span>
         </div>
     )
