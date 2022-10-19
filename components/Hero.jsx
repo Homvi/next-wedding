@@ -24,13 +24,13 @@ const Hero = () => {
 
             {/*  access code */}
 
-            {isCounterVisible ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center' >
-                <h3 className='text-xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-regular' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
-                <input value={accessCode} onChange={e => setAccessCode(e.target.value)} type="text" className='border-4 border-[#fdfbf7] m-2 rounded-xl bg-transparent px-2 ' />
+            {isCounterVisible ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center md:justify-end md:pb-5' >
+                <h3 className='text-xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-regular md:mb-2 ' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
+                <input value={accessCode} onChange={e => setAccessCode(e.target.value)} type="text" className='border-4 border-[#fdfbf7]/80 m-2 rounded-xl bg-transparent px-2 md:min-w-[400px] ' />
                 {/* error message */}
                 <div className={isError ? "text-red-600 bg-white rounded-lg px-1 max-w-[500px]  border-red-500 border-2 m-1 text-center" : "text-red-600 bg-white rounded-lg px-1 max-w-[500px]  border-red-500 hidden border-2 m-1 text-center"}>A megadott számsor nem tartozik egyetlen vendéghez sem!</div>
                 {/* submit btn */}
-                <button onClick={handleSubmit} className='luthier-regular px-2 bg-[#fdfbf7] text-[#ffbd59] rounded-xl'>Küldés</button>
+                <button onClick={handleSubmit} className='luthier-bold px-3 bg-[#fdfbf7] text-lg text-[#ffbd59] rounded-xl m-3 '>Küldés</button>
             </div>)}
 
 
@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
 
             {/* Overlay */}
-            <div className="absolute bg-white/[0.14] z-10 top-0 left-0 h-screen w-screen" ></div>
+            <div className="absolute bg-white/[0.0 z-10 top-0 left-0 h-screen w-screen" ></div>
         </>
     )
 }
