@@ -7,6 +7,7 @@ import checkUser from "../checkUser.js"
 import VerifyedHero from "../components/VerifyedHero"
 import Plan from "../components/Plan"
 import { AiOutlineUserSwitch } from 'react-icons/ai'
+import Intro from "./Intro"
 
 
 
@@ -68,7 +69,7 @@ const Hero = () => {
                 </>
             )}
 
-            {/*  access code */}
+            {/* dynamic hero section */}
 
             {authState === "authorized" ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center md:justify-end md:pb-5' >
                 {/* error message */}
@@ -79,13 +80,10 @@ const Hero = () => {
                 <button onClick={e => handleSubmit(e.target.value)} className='luthier-bold px-3 bg-[#fdfbf7] text-lg text-[#ffbd59] rounded-xl m-3 '>Küldés</button>
             </div>)}
 
+            {/* plan */}
+
             {authState === "authorized" && <Plan />}
-
-
-
-            {/* hero after identification */}
-
-
+            {authState === "authorized" && <Intro />}
 
             {/*  Desktop bcg */}
             <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden  w-screen ">

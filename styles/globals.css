@@ -63,6 +63,11 @@
   width: 2ch;
 }
 
-html{
+.custom-border {
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+html {
   overflow-x: hidden;
 }
