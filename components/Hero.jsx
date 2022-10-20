@@ -18,6 +18,14 @@ const Hero = () => {
         setIsCounterVisible(!isCounterVisible)
     }
 
+    const handleEnter = (e) => {
+        if (e.key === 'Enter') {
+            handleSubmit()
+        }
+    }
+
+
+
     return (
         <>
 
@@ -29,7 +37,7 @@ const Hero = () => {
                 {/* error message */}
                 <WrongAccesCode />
                 <h3 className='text-xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-regular md:mb-2 ' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
-                <input value={accessCode} onChange={e => setAccessCode(e.target.value)} type="text" className='border-4 border-[#fdfbf7]/80 m-2 rounded-xl bg-transparent px-2 md:min-w-[400px] ' />
+                <input value={accessCode} onKeyPress={e => handleEnter(e)} onChange={e => setAccessCode(e.target.value)} type="text" className='border-4 border-[#fdfbf7]/80 m-2 rounded-xl bg-transparent px-2 md:min-w-[400px] ' />
                 {/* submit btn */}
                 <button onClick={handleSubmit} className='luthier-bold px-3 bg-[#fdfbf7] text-lg text-[#ffbd59] rounded-xl m-3 '>Küldés</button>
             </div>)}
