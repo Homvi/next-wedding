@@ -16,10 +16,10 @@ const Hero = () => {
     const [authState, setAuthState] = useState("unauthorized")
 
     useEffect(() => {
-        if (localStorage.getItem('authorized')) {
+        if (localStorage.getItem('authorized' === true)) {
             setActualUser({
                 firstName: localStorage.getItem('firstName'),
-                lastName: localStorage.getItem('firstName'),
+                lastName: localStorage.getItem('lastName'),
                 accessCode: localStorage.getItem('accessCode')
             })
             setAuthState("authorized")
@@ -38,8 +38,8 @@ const Hero = () => {
         }
         else {
             setAuthState("wrong accessCode")
-            localStorage.setItem('FirstName', "");
-            localStorage.setItem('FirstName', "");
+            localStorage.setItem('firstName', "");
+            localStorage.setItem('lastName', "");
             localStorage.setItem('accessCode', "");
             localStorage.setItem('authorized', false);
         }
@@ -49,8 +49,8 @@ const Hero = () => {
         setActualUser({})
         setAuthState("unauthorized")
         setAccessCode("")
-        localStorage.setItem('FirstName', "");
-        localStorage.setItem('FirstName', "");
+        localStorage.setItem('firstName', "");
+        localStorage.setItem('lastName', "");
         localStorage.setItem('accessCode', "");
         localStorage.setItem('authorized', false);
     }
