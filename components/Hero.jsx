@@ -49,10 +49,7 @@ const Hero = () => {
         setActualUser({})
         setAuthState("unauthorized")
         setAccessCode("")
-        localStorage.setItem('firstName', "");
-        localStorage.setItem('lastName', "");
-        localStorage.setItem('accessCode', "");
-        localStorage.setItem('authorized', false);
+        localStorage.clear();
     }
 
 
