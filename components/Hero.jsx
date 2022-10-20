@@ -1,30 +1,60 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import coverDesk from "../public/assets/img/hero-desktop.jpg"
 import WrongAccesCode from "./WrongAccesCode"
 import coverMobile from "../public/assets/img/hero-mobile.jpg"
 import checkUser from "../checkUser.js"
 import VerifyedHero from "../components/VerifyedHero"
+import Plan from "../components/Plan"
+import { AiOutlineUserSwitch } from 'react-icons/ai'
+
+
 
 const Hero = () => {
-    //must to save user to localStore
-
     const [accessCode, setAccessCode] = useState("")
     const [actualUser, setActualUser] = useState("")
     const [authState, setAuthState] = useState("unauthorized")
-    const [isCounterVisible, setIsCounterVisible] = useState(false)
+
+    useEffect(() => {
+        if (localStorage.getItem('authorized')) {
+            setActualUser({
+                firstName: localStorage.getItem('firstName'),
+                lastName: localStorage.getItem('firstName'),
+                accessCode: localStorage.getItem('accessCode')
+            })
+            setAuthState("authorized")
+        }
+    }, [])
+
 
     const handleSubmit = (e) => {
         if (checkUser(accessCode)) {
             setActualUser(checkUser(accessCode))
-            setIsCounterVisible(true)
             setAuthState("authorized")
+            localStorage.setItem('firstName', checkUser(accessCode).firstName);
+            localStorage.setItem('lastName', checkUser(accessCode).lastName);
+            localStorage.setItem('accessCode', checkUser(accessCode).accessCode);
+            localStorage.setItem('authorized', true);
         }
         else {
-            setIsCounterVisible(false)
             setAuthState("wrong accessCode")
+            localStorage.setItem('FirstName', "");
+            localStorage.setItem('FirstName', "");
+            localStorage.setItem('accessCode', "");
+            localStorage.setItem('authorized', false);
         }
     }
+
+    const handleSignOut = () => {
+        setActualUser({})
+        setAuthState("unauthorized")
+        setAccessCode("")
+        localStorage.setItem('FirstName', "");
+        localStorage.setItem('FirstName', "");
+        localStorage.setItem('accessCode', "");
+        localStorage.setItem('authorized', false);
+    }
+
 
     const handleEnter = (e) => {
         if (e.key === 'Enter') {
@@ -32,16 +62,18 @@ const Hero = () => {
         }
     }
 
-
-
     return (
         <>
-
-            <nav className='absolute w-screen z-30 top-0  flex justify-center  md:justify-end' >{actualUser && <div className='luthier-regular  md:min-w-[300px] text-2xl text-center italic text-[#fdfbf7] drop-shadow-lg p-3' >Üdv, {actualUser.firstName}</div>}</nav>
+            {authState === "authorized" && (
+                <>
+                    <nav className='absolute w-screen z-30 top-0  flex justify-center  md:justify-end' >{actualUser && <div className='luthier-regular  md:px-11 text-2xl text-center italic text-[#fdfbf7] drop-shadow-lg p-3' >Üdv, {actualUser.firstName}  </div>}</nav>
+                    <nav className='absolute w-screen z-30 top-0  flex justify-end md:justify-start ' >{actualUser && <div onClick={handleSignOut} className="text-white text-3xl cursor-pointer p-3"><AiOutlineUserSwitch /></div>}</nav>
+                </>
+            )}
 
             {/*  access code */}
 
-            {isCounterVisible ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center md:justify-end md:pb-5' >
+            {authState === "authorized" ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center md:justify-end md:pb-5' >
                 {/* error message */}
                 {authState === "wrong accessCode" ? <WrongAccesCode unvisible={false} /> : <WrongAccesCode unvisible={true} />}
                 <h3 className='text-xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-regular md:mb-2 ' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
@@ -49,6 +81,8 @@ const Hero = () => {
                 {/* submit btn */}
                 <button onClick={e => handleSubmit(e.target.value)} className='luthier-bold px-3 bg-[#fdfbf7] text-lg text-[#ffbd59] rounded-xl m-3 '>Küldés</button>
             </div>)}
+
+            {authState === "authorized" && <Plan />}
 
 
 
