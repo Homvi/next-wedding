@@ -21,9 +21,14 @@ const VerifyedHero = () => {
                     delaySpeed={1000}
                 />
             </div>
-            <CountdownTimer countdownTimerstampMs={1693045620000} />
+            <CountdownTimer countdownTimerstampMs={1693047600000
+            } />
         </div>
     )
+}
+
+{
+    /*    https://www.timestamp-converter.com/*/
 }
 
 export default VerifyedHero
