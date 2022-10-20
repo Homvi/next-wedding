@@ -10,15 +10,15 @@ const VerifyedHero = () => {
 
                 <Typewriter
                     words={['Brigi & Kálmi']}
-                    typeSpeed={110}
+                    typeSpeed={130}
                     delaySpeed={2000}
                 />
             </h3>
             <div className="felx text-3xl lg:text-5xl luthier-regular justify-center">
                 <Typewriter
                     words={['2023.08.26']}
-                    typeSpeed={110}
-                    delaySpeed={1000}
+                    typeSpeed={130}
+                    delaySpeed={2000}
                 />
             </div>
             <CountdownTimer countdownTimerstampMs={1693047600000

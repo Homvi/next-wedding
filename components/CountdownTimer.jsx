@@ -33,9 +33,9 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
                     delay: 1.5,
-                    y: { duration: 1 },
-                    opacity: { duration: 2 },
-                    default: { ease: "linear" }
+                    y: { duration: 3 },
+                    opacity: { duration: 3 },
+                    default: { ease: 'easeIn' }
                 }}
             >
                 <div className="flex justify-cente prata p-2 lg:text-xl">
