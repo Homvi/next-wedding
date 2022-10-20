@@ -1,6 +1,6 @@
-let users = [
-  { name: "Honvédő Eszter", secretCode: 1111 },
-  { name: "Honvédő Ádám", secretCode: 2222 },
+let guests = [
+  { firstName: "Eszter", lastName: "Honvédő", accessCode: 1111 },
+  { firstName: "Ádám", lastName: "Honvédő", accessCode: 2222 },
 ];
 
-export default users;
+export default guests;
