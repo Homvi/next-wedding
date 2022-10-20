@@ -2,6 +2,7 @@ import React from 'react'
 import CountdownTimer from "../components/CountdownTimer"
 import { Typewriter } from 'react-simple-typewriter'
 
+
 const VerifyedHero = () => {
     return (
         <div className='relative  text-[#fdfbf7] left-0 flex flex-col h-screen z-20 w-screen items-center justify-center' >
@@ -18,7 +19,8 @@ const VerifyedHero = () => {
                     words={['2023.08.26']}
                     typeSpeed={110}
                     delaySpeed={1000}
-                /></div>
+                />
+            </div>
             <CountdownTimer countdownTimerstampMs={1693045620000} />
         </div>
     )
