@@ -4,6 +4,7 @@ const Plan = () => {
 
     return (
         <section className=' py-3  min-h-screen items-center text-center flex flex-col bg-[#62622a] ' >
+            <div className="text-center custom-border w-[90%] items-center  flex flex-col">
 
             <h1 className='text-4xl mt-5 luthier-bold text-[#fff]' >Menetrend</h1>
 
@@ -44,7 +45,8 @@ const Plan = () => {
 
             <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
             {/* Dance */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >00:00</span> Menyecsketánc</p>
+            <p className='text-[#fff] text-2xl luthier-bold-italic mb-5' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >00:00</span> Menyecsketánc</p>
+            </div>
 
         </section>
 
