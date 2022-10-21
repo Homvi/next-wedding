@@ -33,10 +33,10 @@ const Contact = ({ user }) => {
                     </label>
 
                     <p className='flex justify-start  flex-col pl-5 w-[90%]' >
-                        <label htmlFor="canCome" className='text-left pb-2' >
+                        <label htmlFor="name" className='text-left pb-2' >
                             Név
                         </label>
-                        <input value={name} onChange={e => setName(e.target.value)} className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" name="canCome" id="canCome" />
+                        <input value={name} onChange={e => setName(e.target.value)} className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" name="name" id="name" />
                     </p>
 
                     <p className='flex justify-start  flex-col pl-5 w-[90%]' >
