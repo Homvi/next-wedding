@@ -25,35 +25,35 @@ const Contact = ({ user }) => {
                 </div>
 
                 {/* form */}
-                <form netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/success" method="POST" className='justify-around items-start text-white luthier-regular  flex w-[50%] flex-col'>
+                <form netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/success" method="POST" className='justify-around items-start text-white luthier-regular  flex w-[100%] md:w-[50%] flex-col'>
                     <input type="hidden" name="form-name" value="contact" />
                     <label className="hidden">
                         Don’t fill this out if you’re human:
                         <input name="bot-field" />
                     </label>
 
-                    <p className='flex justify-start  flex-col pl-5 w-[90%]' >
+                    <p className='flex justify-start  flex-col pl-5 w-[90%] my-5' >
                         <label htmlFor="name" className='text-left pb-2' >
                             Név
                         </label>
                         <input value={name} onChange={e => setName(e.target.value)} className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" name="name" id="name" />
                     </p>
 
-                    <p className='flex justify-start  flex-col pl-5 w-[90%]' >
+                    <p className='flex justify-start  flex-col pl-5 w-[90%] my-5' >
                         <label htmlFor="canCome" className='text-left pb-2' >
                             Kérlek itt jelezz vissza, hogy tudsz e jönni.
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" name="canCome" id="canCome" />
                     </p>
 
-                    <p className='flex justify-start flex-col pl-5 w-[90%]' >
+                    <p className='flex justify-start flex-col pl-5 w-[90%] my-5' >
                         <label htmlFor="howManyPerson" className='text-left pb-2' >
                             Hányan jöttök?
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" placeholder="fő, név..." name="howManyPerson" id="howManyPerson" />
                     </p>
-                    <p className='flex justify-start flex-col pl-5 w-[90%]' >
-                        <label htmlFor="foodIntolerance" className='text-left  pb-2' >
+                    <p className='flex justify-start flex-col pl-5 w-[90%] my-5' >
+                        <label htmlFor="foodIntolerance" className='text-left  pb-2 ' >
                             Írd meg, hogy van e ételérzékenységed.
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' name="foodIntolerance" id="foodIntolerance"></input>
