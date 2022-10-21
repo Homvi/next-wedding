@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import hugContactImage from "../public/assets/img/hug.jpg"
 import Image from 'next/image'
 
-const Contact = () => {
+const Contact = ({ user }) => {
+
+
+
+    console.log(`${user.lastName} ${user.firstName}`);
+
+    const [name, setName] = useState("")
+
+    useEffect(() => {
+        setName(`${user.lastName} ${user.firstName}`)
+    }, [name])
+
     return (
         <section className=' py-3 pt-5 min-h-screen items-center text-center flex flex-col bg-[#62622a] ' >
             <h1 className='text-4xl m-5 luthier-bold text-[#fff]' >Visszajelzések</h1>
             <div className="flex custom-border w-[90%] justify-center">
                 {/* image */}
-                <div className="relative  overflow-y-hidden w-[60vh] p-5 ">
+                <div className="relative hidden md:block overflow-y-hidden w-[60vh] p-5 ">
                     <Image src={hugContactImage} layout="responsive" objectFit='cover'
                     />
                 </div>
@@ -20,6 +31,13 @@ const Contact = () => {
                         Don’t fill this out if you’re human:
                         <input name="bot-field" />
                     </label>
+
+                    <p className='flex justify-start  flex-col pl-5 w-[90%]' >
+                        <label htmlFor="canCome" className='text-left pb-2' >
+                            Név
+                        </label>
+                        <input value={name} onChange={e => setName(e.target.value)} className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" name="canCome" id="canCome" />
+                    </p>
 
                     <p className='flex justify-start  flex-col pl-5 w-[90%]' >
                         <label htmlFor="canCome" className='text-left pb-2' >
