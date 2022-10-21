@@ -25,8 +25,8 @@ const Contact = ({ user }) => {
                 </div>
 
                 {/* form */}
-                <form netlify-honeypot="bot-field" data-netlify="true" name="visszajelzes" action="/success" method="POST" className='justify-around items-start text-white luthier-regular  flex w-[100%] md:w-[50%] flex-col'>
-                    <input type="hidden" name="form-name" value="visszajelzes" />
+                <form netlify-honeypot="bot-field" data-netlify="true" name="form" action="/success" method="POST" className='justify-around items-start text-white luthier-regular  flex w-[100%] md:w-[50%] flex-col'>
+                    <input type="hidden" name="form-name" value="form" />
                     <label className="hidden">
                         Don’t fill this out if you’re human:
                         <input name="bot-field" />
