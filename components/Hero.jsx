@@ -9,7 +9,7 @@ import VerifyedHero from "../components/VerifyedHero"
 import Plan from "../components/Plan"
 import { AiOutlineUserSwitch } from 'react-icons/ai'
 import Intro from "./Intro"
-
+import Contact from "./Contact"
 
 
 
@@ -66,9 +66,10 @@ const Hero = () => {
             handleSubmit()
         }
     }
-    
+
     return (
         <>
+
 
             {/* Loading */}
             {loading && <Loading />}
@@ -93,6 +94,7 @@ const Hero = () => {
 
             {/* plan */}
 
+            <Contact />
             {authState === "authorized" && <Plan />}
             {authState === "authorized" && <Intro />}
 
