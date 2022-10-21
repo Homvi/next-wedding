@@ -94,9 +94,10 @@ const Hero = () => {
 
             {/* plan */}
 
-            <Contact />
+
             {authState === "authorized" && <Plan />}
             {authState === "authorized" && <Intro />}
+            {authState === "authorized" && <Contact />}
 
             {/*  Desktop bcg */}
             <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden  w-screen ">
