@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Loading from "./Loading"
 import Image from 'next/image'
 import coverDesk from "../public/assets/img/hero-desktop.jpg"
 import WrongAccesCode from "./WrongAccesCode"
@@ -11,7 +12,9 @@ import Intro from "./Intro"
 
 
 
+
 const Hero = () => {
+    const [loading, setLoading] = useState(true)
     const [accessCode, setAccessCode] = useState("")
     const [actualUser, setActualUser] = useState("")
     const [authState, setAuthState] = useState("unauthorized")
@@ -27,6 +30,10 @@ const Hero = () => {
         }
     }, [])
 
+
+    const handleLoad = () => {
+        setLoading(false)
+    }
 
     const handleSubmit = (e) => {
         if (checkUser(accessCode)) {
@@ -59,9 +66,13 @@ const Hero = () => {
             handleSubmit()
         }
     }
-
+    
     return (
         <>
+
+            {/* Loading */}
+            {loading && <Loading />}
+
             {authState === "authorized" && (
                 <>
                     <nav className='absolute w-screen z-30 top-0  flex justify-center  md:justify-end' >{actualUser && <div className='luthier-regular  md:px-11 text-2xl text-center italic text-[#fdfbf7] drop-shadow-lg p-3' >Üdv, {actualUser.firstName}  </div>}</nav>
@@ -87,18 +98,21 @@ const Hero = () => {
 
             {/*  Desktop bcg */}
             <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden  w-screen ">
-                <Image src={coverDesk} layout="responsive" objectFit='cover'
+                <Image onLoad={handleLoad} src={coverDesk} layout="responsive" objectFit='cover'
                 />
             </div>
 
             {/*  Phone bcg */}
             <div className="absolute  lg:hidden top-0 left-0 h-screen overflow-y-hidden w-screen ">
-                <Image src={coverMobile} layout="fill" objectFit='cover'
+                <Image onLoad={handleLoad} src={coverMobile} layout="fill" objectFit='cover'
                 />
             </div>
 
             {/* Overlay */}
             <div className="absolute bg-white/[0.0 z-10 top-0 left-0 h-screen w-screen" ></div>
+
+
+
         </>
     )
 }
