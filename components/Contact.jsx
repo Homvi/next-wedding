@@ -13,9 +13,9 @@ const Contact = () => {
                     />
                 </div>
                 {/* form */}
-                <form className='justify-around items-start text-white luthier-regular  flex w-[50%] flex-col' data-netlify="true" name="contact" action="/success" method="POST">
+                <form className='justify-around items-start text-white luthier-regular  flex w-[50%] flex-col' data-netlify="true" name="visszajelzesek" action="/success" method="POST">
 
-                    <input type="hidden" name="Visszajelzesek" value="contact" />
+                    <input type="hidden" name="visszajelzesek" value="contact" />
 
                     <p className='flex justify-start  flex-col pl-5 w-[90%]' >
                         <label htmlFor="canCome" className='text-left pb-2' >
