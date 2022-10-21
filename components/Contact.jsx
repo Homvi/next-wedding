@@ -13,7 +13,7 @@ const Contact = () => {
                     />
                 </div>
                 {/* form */}
-                <form className='justify-around items-start text-white luthier-regular  flex w-[50%] flex-col' netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/success" method="POST">
+                <form className='justify-around items-start text-white luthier-regular  flex w-[50%] flex-col' netlify-honeypot="bot-field" data-netlify="true" name="contact" /* action="/success" */ method="POST">
                     <input type="hidden" name="contact" value="contact" />
                     <label className="hidden">
                         Don’t fill this out if you’re human:
