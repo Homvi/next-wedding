@@ -83,7 +83,7 @@ const Hero = () => {
 
             {/* dynamic hero section */}
 
-            {authState === "authorized" ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center md:justify-end md:pb-5' >
+            {authState === "authorized" ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center' >
                 {/* error message */}
                 {authState === "wrong accessCode" ? <WrongAccesCode unvisible={false} /> : <WrongAccesCode unvisible={true} />}
                 <h3 className='text-xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-regular md:mb-2 ' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
