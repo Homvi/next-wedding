@@ -32,13 +32,13 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
                 initial={{ opacity: 0, y: 200 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
-                    delay: 1.5,
+                    delay: 4,
                     y: { duration: 3 },
                     opacity: { duration: 3 },
                     default: { ease: 'easeIn' }
                 }}
             >
-                <div className="flex justify-cente prata p-2 lg:text-xl">
+                <div className="flex justify-center prata p-2 lg:text-xl">
                     <span>{remainingTime.days}</span>
                     <span className='leading-[23px]  px-[2px]' > : </span>
                     <span className='two-numbers text-center'>{remainingTime.hours}</span>
