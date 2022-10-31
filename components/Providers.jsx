@@ -9,7 +9,7 @@ import band from "../public/assets/img/band.jpg"
 
 const Providers = () => {
   return (
-    <section className=' py-3  min-h-[50vh] items-center w-[95vw] p-5 text-[#fff] text-center flex flex-col' >
+    <section className=' py-3 custom-border  min-h-[50vh] items-center w-[95vw] p-5 text-[#fff] text-center flex flex-col' >
       <h1 className='text-2xl mt-3 mb-5 uppercase luthier-bold' >Szolgáltatóink</h1>
       <div className="grid grid-cols-1 gap-5 w-full  md:grid-cols-2 xl:grid-cols-3">
 

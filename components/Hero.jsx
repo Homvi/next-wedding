@@ -99,12 +99,12 @@ const Hero = () => {
             {/* plan */}
 
 
-            {authState === "authorized" && <Providers />}
             {authState === "authorized" && <Intro />}
             {authState === "authorized" && <OurStory />}
             {authState === "authorized" && <OurLove />}
             {authState === "authorized" && <Plan />}
             {authState === "authorized" && <ContactInfo />}
+            {authState === "authorized" && <Providers />}
             {/*   {authState === "authorized" && <Contact user={actualUser} />} */}
             <Contact authorized={authState} />
 
