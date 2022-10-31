@@ -11,6 +11,7 @@ import { AiOutlineUserSwitch } from 'react-icons/ai'
 import Intro from "./Intro"
 import Contact from "./Contact"
 import OurStory from "./OurStory"
+import OurLove from "./OurLove"
 
 
 
@@ -98,6 +99,7 @@ const Hero = () => {
 
             {authState === "authorized" && <Intro />}
             {authState === "authorized" && <OurStory />}
+            {authState === "authorized" && <OurLove />}
             {authState === "authorized" && <Plan />}
             {/*   {authState === "authorized" && <Contact user={actualUser} />} */}
             <Contact authorized={authState} />
