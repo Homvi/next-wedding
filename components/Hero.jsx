@@ -10,6 +10,7 @@ import Plan from "../components/Plan"
 import { AiOutlineUserSwitch } from 'react-icons/ai'
 import Intro from "./Intro"
 import Contact from "./Contact"
+import OurStory from "./OurStory"
 
 
 
@@ -96,6 +97,7 @@ const Hero = () => {
 
 
             {authState === "authorized" && <Intro />}
+            {authState === "authorized" && <OurStory />}
             {authState === "authorized" && <Plan />}
             {/*   {authState === "authorized" && <Contact user={actualUser} />} */}
             <Contact authorized={authState} />
