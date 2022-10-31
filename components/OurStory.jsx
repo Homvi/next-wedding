@@ -5,8 +5,8 @@ import Image from 'next/image'
 const OurStory = () => {
     return (
         <section className=' py-3 min-h-screen  items-center  text-center flex flex-col' >
-            <h1 className='luthier-bold text-2xl  text-center text-[#fdfbf7] mt-10 uppercase' >A mi kis<br/> történetünk...</h1>
-            <div className="flex w-screen xl:w-[90%] custom-border justify-around p-5 items-center ">
+            <h1 className='luthier-bold text-2xl  text-center text-[#fdfbf7] mt-10 uppercase' >A mi kis<br /> történetünk...</h1>
+            <div className="flex  w-[90%] custom-border justify-around p-5 items-center ">
                 <div className="image-container">
                     <div className="relative  hidden rounded-sm mx-auto md:block overflow-y-hidden w-[55vh]">
                         <Image src={kissOnHead} layout="responsive" objectFit='cover'

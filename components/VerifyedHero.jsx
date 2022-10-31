@@ -7,7 +7,7 @@ const VerifyedHero = () => {
     return (
         <div className='relative  text-[#fdfbf7]  left-0 flex flex-col h-screen z-20 w-screen items-center justify-center' >
             <AnimatePresence>
-                <div className="flex justify-center relative w-fit   mb-1">
+                <div key={1} className="flex justify-center relative w-fit   mb-1">
                     <motion.h3 className='w-0 flex text-5xl top-0 left-0 pb-5 absolute overflow-hidden  justify-start whitespace-nowrap  parisienne text-5x lg:text-8xl'
                         animate={{ width: "fit-content" }}
                         transition={{ duration: 5 }}
