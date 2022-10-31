@@ -6,8 +6,8 @@ const Contact = ({ authorized }) => {
 
 
     return (
-        <section className={authorized === "authorized" ? ' py-3 pt-5 text-black md:text-[#fdfbf7] min-h-screen w-[90vw] items-center text-center flex flex-col' : ' py-3 pt-5 min-h-screen items-center text-center hidden flex-col'} >
-            <h1 className='uppercase m-5 luthier-bold text-4xl tracking-wider' >Visszajelzések</h1>
+        <section className={authorized === "authorized" ? ' py-5 text-black md:text-[#fdfbf7] min-h-screen w-[90vw] items-center text-center flex flex-col' : ' py-3 pt-5 min-h-screen items-center text-center hidden flex-col'} >
+            <h1 className='uppercase mb-5 luthier-bold text-4xl tracking-wider' >Visszajelzések</h1>
             <div className="flex w-[100%] justify-center text-black md:text-[#fdfbf7]">
                 {/* image */}
                 <div className="relative hidden md:block overflow-y-hidden w-[60vh] p-5 ">
@@ -24,27 +24,26 @@ const Contact = ({ authorized }) => {
                     </label>
 
                     <p className='flex justify-start  flex-col pl-5 w-[90%] my-5' >
-                        <label htmlFor="name" className='text-left pb-2 text-black md:text-[#fdfbf7]' >
+                        <label htmlFor="name" className='text-left pb-2 text-black text-lg md:text-[#fdfbf7]' >
                             Név
                         </label>
                         <input /* onChange={e => setName(e.target.value)} */ className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" name="name" id="name" />
                     </p>
 
                     <p className='flex justify-start  flex-col pl-5 w-[90%] my-5' >
-                        <label htmlFor="canCome" className='text-left pb-2 text-black md:text-[#fdfbf7]' >
+                        <label htmlFor="canCome" className='text-left   text-lg pb-2 text-black md:text-[#fdfbf7]' >
                             Kérlek itt jelezz vissza, hogy tudsz e jönni.
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' type="text" name="canCome" id="canCome" />
                     </p>
-
                     <p className='flex justify-start flex-col pl-5 w-[90%] my-5' >
-                        <label htmlFor="howManyPerson" className='text-left pb-2 text-black md:text-[#fdfbf7]' >
+                        <label htmlFor="howManyPerson" className='text-left pb-2  text-lg text-black md:text-[#fdfbf7]' >
                             Hányan jöttök?
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2 placeholder-slate-300 rounded-xl bg-transparent' type="text" placeholder="fő, név..." name="howManyPerson" id="howManyPerson" />
                     </p>
                     <p className='flex justify-start flex-col pl-5 w-[90%] my-5' >
-                        <label htmlFor="foodIntolerance" className='text-left  pb-2 text-black md:text-[#fdfbf7]' >
+                        <label htmlFor="foodIntolerance" className='text-left   text-lg pb-2 text-black md:text-[#fdfbf7]' >
                             Írd meg, hogy van e ételérzékenységed.
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' name="foodIntolerance" id="foodIntolerance"></input>

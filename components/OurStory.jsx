@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const OurStory = () => {
     return (
-        <section className=' py-3 min-h-screen w-[95vw] items-center  text-center flex flex-col' >
-            <h1 className='luthier-bold text-4xl tracking-wider text-center mt-10 uppercase' >A mi kis<br /> történetünk...</h1>
+        <section className=' my-5 min-h-screen w-[95vw] items-center  text-center flex flex-col' >
+            <h1 className='luthier-bold text-4xl tracking-wider text-center uppercase' >A mi kis<br /> történetünk...</h1>
             <div className="flex  w-[100%] custom-border justify-around p-5 items-center ">
                 <div className="image-container">
                     <div className="relative  hidden rounded-sm mx-auto md:block overflow-y-hidden w-[55vh]">

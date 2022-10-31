@@ -7,7 +7,7 @@ const Plan = () => {
     }
 
     return (
-        <section className=' py-3 mt-10 md:mt-0 min-h-screen items-center text-center w-[95vw] flex flex-col' >
+        <section className=' py-5 mt-10 md:mt-0 min-h-screen items-center text-center w-[95vw] flex flex-col' >
             <div className="text-center custom-border w-[100%] items-center  flex flex-col">
 
                 <h1 className='uppercase text-4xl tracking-wider mt-3 mb-10 luthier-bold ' >Menetrend</h1>
