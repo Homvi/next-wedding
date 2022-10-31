@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="max-w-screen bg-[#62622a]/70">
+      <div className="max-w-screen flex flex-col items-center bg-[#62622a]/70">
         <Hero />
       </div>
     </>

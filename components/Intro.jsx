@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const Intro = () => {
     return (
-        <section className=' py-3 max-h-screen items-center  text-center flex flex-col' >
-            <div className="flex w-[90%] custom-border custom-border-top p-5 items-center">
-                <div className="text-[#fdfbf7] flex tracking-wider leading-10 text-2xl items-center text-center md:h-[90vh] md:w-[50%] md:p-10 p-1 luthier-bold-italic">
+        <section className=' py-3 max-h-screen items-center max-w-[95vw]  text-center flex flex-col' >
+            <div className="flex w-[100%] custom-border min-h-[95vh] custom-border-top p-5 items-center">
+                <div className="text-[#fdfbf7] flex tracking-wider leading-10 text-2xl items-center text-center md:h-[90vh] md:w-[60%] md:p-10 p-1 luthier-bold-italic">
                     Minden kisfiú és kislány megálmodja milyen lesz, ha egyszer neki is eljön a Nagy nap!
                     A mi Nagy napunk 2023. augusztus 26.-a.
                     Osztozzatok örömünkben mikor örök hűséget fogadunk egymásnak!
