@@ -6,6 +6,7 @@ import cake from "../public/assets/icon/torta.svg"
 import dinner from "../public/assets/icon/vacsora.svg"
 import guest from "../public/assets/icon/vendegvaras.svg"
 import civil from "../public/assets/icon/polgari.svg"
+import flower1 from "../public/assets/icon/virag1.svg"
 
 
 
@@ -20,7 +21,10 @@ const Plan = () => {
     }
 
     return (
-        <section className=' py-5 mt-10 md:mt-0 min-h-screen items-center text-center w-[95vw] flex flex-col' >
+        <section className=' py-5 mt-10 md:mt-0 relative min-h-screen items-center text-center w-[95vw] flex flex-col' >
+            
+                <span className='w-[80px] m-2 absolute top-10 left-[-30px] md:left-[-50px]' ><Image src={flower1} /></span>
+          
             <div className="text-center custom-border w-[100%] items-center  flex flex-col">
 
                 <h1 className='uppercase text-4xl tracking-wider mt-3 mb-10 luthier-bold ' >Menetrend</h1>
