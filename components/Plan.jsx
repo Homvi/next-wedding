@@ -7,6 +7,7 @@ import dinner from "../public/assets/icon/vacsora.svg"
 import guest from "../public/assets/icon/vendegvaras.svg"
 import civil from "../public/assets/icon/polgari.svg"
 import flower1 from "../public/assets/icon/virag1.svg"
+import flower2 from "../public/assets/icon/virag2.svg"
 
 
 
@@ -24,6 +25,7 @@ const Plan = () => {
         <section className=' py-5 mt-10 md:mt-0 relative min-h-screen items-center text-center w-[95vw] flex flex-col' >
 
             <span className='w-[80px] m-2 absolute top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1} /></span>
+            <span className='w-[80px] m-2 absolute rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2} /></span>
 
             <div className="text-center custom-border w-[100%] items-center  flex flex-col">
 
