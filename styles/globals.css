@@ -67,6 +67,10 @@
   /*  border-top: 4px solid rgba(255, 255, 255, 0.8); */
   border-bottom: 4px solid rgba(255, 255, 255, 0.8);
 }
+.custom-border-top {
+  /*  border-top: 4px solid rgba(255, 255, 255, 0.8); */
+  border-top: 4px solid rgba(255, 255, 255, 0.8);
+}
 
 html {
   overflow-x: hidden;
