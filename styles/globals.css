@@ -72,6 +72,11 @@
   border-top: 4px solid rgba(255, 255, 255, 0.8);
 }
 
+.custom-border-orange {
+  /*  border-top: 4px solid rgba(255, 255, 255, 0.8); */
+  border-bottom: 1px solid #ffbd59;
+}
+
 html {
   overflow-x: hidden;
 }

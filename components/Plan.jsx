@@ -10,7 +10,7 @@ const Plan = () => {
         <section className=' py-3  min-h-screen items-center text-center flex flex-col' >
             <div className="text-center custom-border w-[90%] items-center  flex flex-col">
 
-                <h1 className='text-4xl mt-3 mb-10 luthier-bold text-[#fff]' >Menetrend</h1>
+                <h1 className='text-2xl uppercase mt-3 mb-10 luthier-bold text-[#fff]' >Menetrend</h1>
 
 
                 {/* maiden request */}
