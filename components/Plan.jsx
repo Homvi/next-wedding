@@ -10,7 +10,7 @@ const Plan = () => {
         <section className=' py-3 mt-10 md:mt-0 min-h-screen items-center text-center w-[95vw] flex flex-col' >
             <div className="text-center custom-border w-[100%] items-center  flex flex-col">
 
-                <h1 className='text-2xl uppercase mt-3 mb-10 luthier-bold ' >Menetrend</h1>
+                <h1 className='uppercase text-4xl tracking-wider mt-3 mb-10 luthier-bold ' >Menetrend</h1>
 
                 {/* maiden request */}
                 <p className=' text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >13:00</span> Lánykikérés</p>

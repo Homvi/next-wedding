@@ -7,7 +7,7 @@ const Contact = ({ authorized }) => {
 
     return (
         <section className={authorized === "authorized" ? ' py-3 pt-5 text-black md:text-[#fdfbf7] min-h-screen w-[90vw] items-center text-center flex flex-col' : ' py-3 pt-5 min-h-screen items-center text-center hidden flex-col'} >
-            <h1 className='text-2xl uppercase m-5 luthier-bold' >Visszajelzések</h1>
+            <h1 className='uppercase m-5 luthier-bold text-4xl tracking-wider' >Visszajelzések</h1>
             <div className="flex w-[100%] justify-center text-black md:text-[#fdfbf7]">
                 {/* image */}
                 <div className="relative hidden md:block overflow-y-hidden w-[60vh] p-5 ">
