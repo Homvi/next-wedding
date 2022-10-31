@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="max-w-screen bg-[#62622a]">
+      <div className="max-w-screen bg-[#62622a]/70">
         <Hero />
       </div>
     </>

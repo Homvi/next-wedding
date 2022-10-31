@@ -6,7 +6,7 @@ const Contact = ({ authorized }) => {
 
 
     return (
-        <section className={authorized === "authorized" ? ' py-3 pt-5 min-h-screen items-center text-center flex flex-col bg-[#62622a] ' : ' py-3 pt-5 min-h-screen items-center text-center hidden flex-col bg-[#62622a] '} >
+        <section className={authorized === "authorized" ? ' py-3 pt-5 min-h-screen items-center text-center flex flex-col' : ' py-3 pt-5 min-h-screen items-center text-center hidden flex-col bg-[#62622a] '} >
             <h1 className='text-4xl m-5 luthier-bold text-[#fff]' >Visszajelzések</h1>
             <div className="flex custom-border w-[90%] justify-center">
                 {/* image */}

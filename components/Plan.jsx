@@ -3,49 +3,49 @@ import { MdOutlineDoubleArrow } from "react-icons/md"
 const Plan = () => {
 
     return (
-        <section className=' py-3  min-h-screen items-center text-center flex flex-col bg-[#62622a] ' >
+        <section className=' py-3  min-h-screen items-center text-center flex flex-col' >
             <div className="text-center custom-border w-[90%] items-center  flex flex-col">
 
-            <h1 className='text-4xl mt-5 luthier-bold text-[#fff]' >Menetrend</h1>
+                <h1 className='text-4xl mt-5 luthier-bold text-[#fff]' >Menetrend</h1>
 
-            {/* arrow */}
-            <div className="text-[#ffbd59] rotate-90 m-1"><MdOutlineDoubleArrow /></div>
+                {/* arrow */}
+                <div className="text-[#ffbd59] rotate-90 m-1"><MdOutlineDoubleArrow /></div>
 
-            {/* maiden request */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >13:00</span> Lánykikérés</p>
-            <p className='luthier-italic  text-center text-[#fff]' >8111 Seregélyes Ady Endre utca 99</p>
+                {/* maiden request */}
+                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >13:00</span> Lánykikérés</p>
+                <p className='luthier-italic  text-center text-[#fff]' >8111 Seregélyes Ady Endre utca 99</p>
 
-            <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
+                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
 
-            {/* churc cremony */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >14:00</span> Templomi szertartás</p>
-            <p className='luthier-italic text-center text-[#fff]' >Budai úti Református Templom 8000 Székesfehérvár Budai út 113.</p>
+                {/* churc cremony */}
+                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >14:00</span> Templomi szertartás</p>
+                <p className='luthier-italic text-center text-[#fff]' >Budai úti Református Templom 8000 Székesfehérvár Budai út 113.</p>
 
-            <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
+                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
 
-            {/* wait guest */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >16:30</span> Vendégvárás</p>
-            <p className='luthier-italic text-center text-[#fff]' >Sokoró Fogadó 9112 Sokorópátka Főmajor</p>
+                {/* wait guest */}
+                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >16:30</span> Vendégvárás</p>
+                <p className='luthier-italic text-center text-[#fff]' >Sokoró Fogadó 9112 Sokorópátka Főmajor</p>
 
-            <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
+                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
 
-            {/* civil */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >17:30</span> Polgári szertartás</p>
-            <p className='luthier-italic text-center text-[#fff]' >Pavilon</p>
+                {/* civil */}
+                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >17:30</span> Polgári szertartás</p>
+                <p className='luthier-italic text-center text-[#fff]' >Pavilon</p>
 
-            <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
+                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
 
-            {/* Dinner */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >19:30</span> Vacsora</p>
+                {/* Dinner */}
+                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >19:30</span> Vacsora</p>
 
-            <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
+                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
 
-            {/* Cake */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >22:30</span> Menyasszonyi torta</p>
+                {/* Cake */}
+                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >22:30</span> Menyasszonyi torta</p>
 
-            <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
-            {/* Dance */}
-            <p className='text-[#fff] text-2xl luthier-bold-italic mb-5' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >00:00</span> Menyecsketánc</p>
+                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-3 rounded-full'></div>
+                {/* Dance */}
+                <p className='text-[#fff] text-2xl luthier-bold-italic mb-5' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >00:00</span> Menyecsketánc</p>
             </div>
 
         </section>
