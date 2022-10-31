@@ -23,7 +23,7 @@ const Plan = () => {
 
     return (
         <section className=' py-5 mt-10 md:mt-0 relative min-h-screen items-center text-center w-[95vw] flex flex-col' >
-
+            {/* flowers for flip scale-x-[-1] */}
             <span className='w-[80px] m-2 absolute top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1} /></span>
             <span className='w-[80px] m-2 absolute rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2} /></span>
 
