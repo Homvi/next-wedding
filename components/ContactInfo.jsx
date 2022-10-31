@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactInfo = () => {
     return (
-        <section className=' py-3  min-h-[50vh] items-center w-[95vw] text-[#fff] text-center flex flex-col' >
+        <section className=' py-3  min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
             <h1 className='text-2xl mt-3 mb-5 uppercase luthier-bold' >Elérhetőségek</h1>
             <div className="flex flex-col md:flex-row justify-center w-[100%] custom-border pb-10">
                 <div className="text-center m-5 flex flex-col justify-center items-center">

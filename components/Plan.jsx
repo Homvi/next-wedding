@@ -10,43 +10,43 @@ const Plan = () => {
         <section className=' py-3 mt-10 md:mt-0 min-h-screen items-center text-center w-[95vw] flex flex-col' >
             <div className="text-center custom-border w-[100%] items-center  flex flex-col">
 
-                <h1 className='text-2xl uppercase mt-3 mb-10 luthier-bold text-[#fff]' >Menetrend</h1>
+                <h1 className='text-2xl uppercase mt-3 mb-10 luthier-bold ' >Menetrend</h1>
 
                 {/* maiden request */}
-                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >13:00</span> Lánykikérés</p>
-                <p className='luthier-italic  text-center text-[#fff]' ><a target="_blank" href={adresses.maidenRequest} rel="noopener noreferrer">8111 Seregélyes Ady Endre utca 99</a> </p>
+                <p className=' text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >13:00</span> Lánykikérés</p>
+                <p className='luthier-italic  text-center ' ><a target="_blank" href={adresses.maidenRequest} rel="noopener noreferrer">8111 Seregélyes Ady Endre utca 99</a> </p>
 
                 <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
 
                 {/* churc cremony */}
-                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >14:00</span> Templomi szertartás</p>
-                <p className='luthier-italic text-center text-[#fff]' ><a target="_blank" href={adresses.churcCremony} rel="noopener noreferrer">Budai úti Református Templom 8000 Székesfehérvár Budai út 113.</a> </p>
+                <p className=' text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >14:00</span> Templomi szertartás</p>
+                <p className='luthier-italic text-center ' ><a target="_blank" href={adresses.churcCremony} rel="noopener noreferrer">Budai úti Református Templom 8000 Székesfehérvár Budai út 113.</a> </p>
 
                 <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
 
                 {/* wait guest */}
-                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >16:30</span> Vendégvárás</p>
-                <p className='luthier-italic text-center text-[#fff]' > <a target="_blank" href={adresses.waitGuest} rel="noopener noreferrer">Sokoró Fogadó 9112 Sokorópátka Főmajor</a></p>
+                <p className=' text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >16:30</span> Vendégvárás</p>
+                <p className='luthier-italic text-center ' > <a target="_blank" href={adresses.waitGuest} rel="noopener noreferrer">Sokoró Fogadó 9112 Sokorópátka Főmajor</a></p>
 
                 <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
 
                 {/* civil */}
-                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >17:30</span> Polgári szertartás</p>
-                <p className='luthier-italic text-center text-[#fff]' >Pavilon</p>
+                <p className=' text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >17:30</span> Polgári szertartás</p>
+                <p className='luthier-italic text-center' >Pavilon</p>
 
                 <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
 
                 {/* Dinner */}
-                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >19:30</span> Vacsora</p>
+                <p className=' text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >19:30</span> Vacsora</p>
 
                 <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
 
                 {/* Cake */}
-                <p className='text-[#fff] text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >22:30</span> Menyasszonyi torta</p>
+                <p className=' text-2xl luthier-bold-italic' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >22:30</span> Menyasszonyi torta</p>
 
                 <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
                 {/* Dance */}
-                <p className='text-[#fff] text-2xl luthier-bold-italic mb-5' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >00:00</span> Menyecsketánc</p>
+                <p className=' text-2xl luthier-bold-italic mb-5' ><span className='text-[#ffbd59] text-2xl luthier-bold-italic' >00:00</span> Menyecsketánc</p>
             </div>
 
         </section>
