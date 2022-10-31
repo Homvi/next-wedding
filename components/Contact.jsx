@@ -8,7 +8,7 @@ const Contact = ({ authorized }) => {
     return (
         <section className={authorized === "authorized" ? ' py-3 pt-5 min-h-screen w-[90vw] items-center text-center flex flex-col' : ' py-3 pt-5 min-h-screen items-center text-center hidden flex-col bg-[#62622a] '} >
             <h1 className='text-2xl uppercase m-5 luthier-bold text-[#fff]' >Visszajelzések</h1>
-            <div className="flex custom-border w-[100%] justify-center">
+            <div className="flex w-[100%] justify-center">
                 {/* image */}
                 <div className="relative hidden md:block overflow-y-hidden w-[60vh] p-5 ">
                     <Image src={hugContactImage} layout="responsive" objectFit='cover'
