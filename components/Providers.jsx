@@ -19,6 +19,7 @@ const Providers = () => {
         <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
+              alt='photo'
               src={photo}
               objectFit="contain"
               widt={500}
@@ -32,6 +33,7 @@ const Providers = () => {
         <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
+              alt='video'
               src={video}
               objectFit="contain"
               widt={500}
@@ -44,6 +46,7 @@ const Providers = () => {
         <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
+              alt='best Man'
               src={bestMan}
               objectFit="contain"
               height={507}
@@ -56,6 +59,7 @@ const Providers = () => {
         <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
+              alt='Band'
               src={band}
               objectFit="contain"
               widt={500}
@@ -68,6 +72,7 @@ const Providers = () => {
         <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
+              alt='sokoro'
               src={sokoro}
               objectFit="contain"
               widt={500}
@@ -80,6 +85,7 @@ const Providers = () => {
         <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
+              alt='sokoro'
               src={sokoroHouse}
               objectFit="contain"
               widt={500}

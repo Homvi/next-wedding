@@ -9,7 +9,7 @@ const OurStory = () => {
             <div className="flex  w-[100%] custom-border justify-around p-5 items-center ">
                 <div className="image-container">
                     <div className="relative  hidden rounded-sm mx-auto md:block overflow-y-hidden w-[55vh]">
-                        <Image src={kissOnHead} layout="responsive" objectFit='cover'
+                        <Image alt='BrigiEsKalmi' src={kissOnHead} layout="responsive" objectFit='cover'
                         />
                     </div>
                 </div>

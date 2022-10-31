@@ -11,7 +11,7 @@ const OurLove = () => {
                     Ezért tehát összekötjük életünket meg alapozva családunk bővülését. Bízva abba, hogy együtt éljük le életünket sok élménnyel és örömmel gazdagodva.
                 </div>
                 <div className="relative hidden rounded-sm mx-auto md:block overflow-y-hidden w-[55vh]">
-                    <Image src={laugh} layout="responsive" objectFit='cover'
+                    <Image alt='BrigiEsKalmi' src={laugh} layout="responsive" objectFit='cover'
                     />
                 </div>
             </div>

@@ -13,7 +13,7 @@ const Intro = () => {
                     Szeretettel várunk benneteket!
                 </div>
                 <div className="relative hidden rounded-sm mx-auto md:block overflow-y-hidden w-[55vh]">
-                    <Image src={holdingHands} layout="responsive" objectFit='cover'
+                    <Image alt='BrigiEsKalmi' src={holdingHands} layout="responsive" objectFit='cover'
                     />
                 </div>
             </div>

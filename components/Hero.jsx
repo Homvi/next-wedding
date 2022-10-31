@@ -110,13 +110,13 @@ const Hero = () => {
 
             {/*  Desktop bcg */}
             <div className="absolute hidden lg:block top-0 left-0 h-screen overflow-y-hidden  w-screen ">
-                <Image onLoad={handleLoad} src={coverDesk} layout="responsive" objectFit='cover'
+                <Image alt='background' onLoad={handleLoad} src={coverDesk} layout="responsive" objectFit='cover'
                 />
             </div>
 
             {/*  Phone bcg */}
             <div className="absolute  lg:hidden top-0 left-0 h-screen overflow-y-hidden w-screen ">
-                <Image onLoad={handleLoad} src={coverMobile} layout="fill" objectFit='cover'
+                <Image alt='background' onLoad={handleLoad} src={coverMobile} layout="fill" objectFit='cover'
                 />
             </div>
 
