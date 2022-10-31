@@ -1,8 +1,97 @@
+import Image from 'next/image'
 import React from 'react'
+import photo from "../public/assets/img/photo.jpg"
+import video from "../public/assets/img/video.jpeg"
+import bestMan from "../public/assets/img/bestMan.jpg"
+import sokoro from "../public/assets/img/sokoro.jpg"
+import sokoroHouse from "../public/assets/img/sokoroHouse.jpg"
+import band from "../public/assets/img/band.jpg"
 
 const Providers = () => {
   return (
-    <div>Providers</div>
+    <section className=' py-3  min-h-[50vh] items-center w-[95vw] p-5 text-[#fff] text-center flex flex-col' >
+      <h1 className='text-2xl mt-3 mb-5 uppercase luthier-bold' >Szolgáltatóink</h1>
+      <div className="grid grid-cols-1 gap-5 w-full  md:grid-cols-2 xl:grid-cols-3">
+
+
+
+        {/* grid element photo*/}
+        <div className=" w-full">
+          <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
+            <Image
+              src={photo}
+              objectFit="contain"
+              widt={500}
+            />
+          </div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">Zengő Ferenc - fotó</div>
+        </div>
+
+
+        {/* grid element video*/}
+        <div className=" w-full">
+          <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
+            <Image
+              src={video}
+              objectFit="contain"
+              widt={500}
+            />
+          </div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">KuriMedia - videó</div>
+        </div>
+
+        {/* grid element best man */}
+        <div className=" w-full">
+          <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
+            <Image
+              src={bestMan}
+              objectFit="contain"
+              height={507}
+            />
+          </div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">Papp Ferenc - vőfély</div>
+        </div>
+
+        {/* grid element Band*/}
+        <div className=" w-full">
+          <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
+            <Image
+              src={band}
+              objectFit="contain"
+              widt={500}
+            />
+          </div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">Zé Klub zenekar - zene</div>
+        </div>
+
+        {/* grid element sokoro*/}
+        <div className=" w-full">
+          <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
+            <Image
+              src={sokoro}
+              objectFit="contain"
+              widt={500}
+            />
+          </div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">Sokoró fogadó - Lakodalmas helyszín</div>
+        </div>
+
+        {/* grid element sokoro house*/}
+        <div className=" w-full">
+          <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
+            <Image
+              src={sokoroHouse}
+              objectFit="contain"
+              widt={500}
+            />
+          </div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">Sokoró fogadó - Lakodalmas helyszín</div>
+        </div>
+
+
+
+      </div>
+    </section>
   )
 }
 

@@ -13,6 +13,7 @@ import Contact from "./Contact"
 import OurStory from "./OurStory"
 import OurLove from "./OurLove"
 import ContactInfo from "./ContactInfo"
+import Providers from "./Providers"
 
 
 
@@ -98,6 +99,7 @@ const Hero = () => {
             {/* plan */}
 
 
+            {authState === "authorized" && <Providers />}
             {authState === "authorized" && <Intro />}
             {authState === "authorized" && <OurStory />}
             {authState === "authorized" && <OurLove />}
