@@ -95,8 +95,8 @@ const Hero = () => {
             {/* plan */}
 
 
-            {authState === "authorized" && <Plan />}
             {authState === "authorized" && <Intro />}
+            {authState === "authorized" && <Plan />}
             {/*   {authState === "authorized" && <Contact user={actualUser} />} */}
             <Contact authorized={authState} />
 
