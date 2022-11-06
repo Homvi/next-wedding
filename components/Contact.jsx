@@ -23,7 +23,7 @@ const Contact = ({ authorized }) => {
                         <input name="bot-field" />
                     </label>
 
-                    <p className='flex justify-start  flex-col pl-5 w-[90%] my-5' >
+                    <p className='flex justify-start  flex-col pl-5 w-[90%] mb-5' >
                         <label htmlFor="name" className='text-left pb-2 text-black text-lg md:text-[#fdfbf7]' >
                             Név
                         </label>
