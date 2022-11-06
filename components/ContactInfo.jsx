@@ -2,11 +2,11 @@ import React from 'react'
 
 const ContactInfo = () => {
     return (
-        <section className=' my-5  min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
+        <section className=' my-5 border-b-4 border-[#ffbd59] md:border-[#faf8ebc3]  min-h-[50vh] items-center w-[95vw] text-center  flex flex-col' >
             <h1 className='mt-3 mb-10 uppercase luthier-bold text-4xl tracking-wider' >Elérhetőségek</h1>
 
-            <div className="flex flex-col md:flex-row justify-center w-[100%] custom-border pb-10">
-                
+            <div className="flex flex-col md:flex-row justify-center w-[100%] pb-10">
+
                 <div className="text-center m-5 mx-8 flex flex-col justify-center items-center">
                     <h3 className='luthier-bold-italic text-xl custom-border-orange' >Balla Brigitta</h3>
                     <p className="text-cente my-1 text-lg  luthier-regular"><a href="tel:06-30/85-68-438">06-30/85-68-438</a></p>
