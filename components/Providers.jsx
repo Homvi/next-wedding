@@ -11,9 +11,7 @@ const Providers = () => {
   return (
     <section className='custom-border  min-h-[50vh] items-center w-[95vw]  text-center flex flex-col' >
       <h1 className='my-5 uppercase luthier-bold pb-10 text-4xl tracking-wider' >Szolgáltatóink</h1>
-      <div className="grid grid-cols-1 gap-5 w-full  md:grid-cols-2 xl:grid-cols-3">
-
-
+      <div className="gap-5 grid w-full grid-cols-2 xl:grid-cols-3 mb-5 p-2 xl:p-0">
 
         {/* grid element photo*/}
         <div className=" w-full">
