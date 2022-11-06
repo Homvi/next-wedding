@@ -9,9 +9,9 @@ import band from "../public/assets/img/band.jpg"
 
 const Providers = () => {
   return (
-    <section className='border-b-4 border-[#ffbd59] md:border-[#faf8ebc3]  min-h-[50vh] items-center w-[95vw]  text-center flex flex-col' >
-      <h1 className='my-5 uppercase luthier-bold pb-10 text-4xl tracking-wider' >Szolgáltatóink</h1>
-      <div className="gap-5 grid w-full grid-cols-2 xl:grid-cols-3 mb-5 p-2 xl:p-0">
+    <section className='border-b-4 py-5 border-[#ffbd59] md:border-[#faf8ebc3]  min-h-[50vh] items-center w-[95vw]  text-center flex flex-col' >
+      <h1 className='mt-3 mb-10 text-3xl md:text-4xl tracking-wider uppercase luthier-bold' >Szolgáltatóink</h1>
+      <div className="gap-5 grid w-full grid-cols-2 xl:grid-cols-3 p-2 xl:p-0">
 
         {/* grid element photo*/}
         <div className=" w-full">
