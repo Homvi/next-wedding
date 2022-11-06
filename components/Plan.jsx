@@ -36,11 +36,11 @@ const Plan = () => {
         <section className='py-5 w-[95vw] border-b-4 border-[#ffbd59] md:border-[#faf8ebc3] relative min-h-screen items-center text-center  flex flex-col' >
             {/* flowers for flip scale-x-[-1] */}
             {/* dekstop */}
-            <span className='w-[80px] m-2 hidden md:block absolute top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1} /></span>
-            <span className='w-[80px] m-2 hidden md:block absolute rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2} /></span>
+            <span className='w-[80px] m-2 hidden md:block absolute top-10 left-[-35px] sm:left-[-75px] sm:w-[110px]' ><Image src={flower1} /></span>
+            <span className='w-[80px] m-2 hidden md:block absolute rotate-[330deg] top-[500px] right-[-35px] sm:right-[-85px] sm:w-[150px]' ><Image src={flower2} /></span>
             {/* mobile */}
-            <span className='w-[80px] m-2 absolute md:hidden top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1Green} /></span>
-            <span className='w-[80px] m-2 absolute md:hidden rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2Green} /></span>
+            <span className='w-[60px] m-2 absolute md:hidden top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1Green} /></span>
+            <span className='w-[60px] m-2 absolute md:hidden rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2Green} /></span>
 
             <div className="text-center w-[100%] items-center  flex flex-col">
 
