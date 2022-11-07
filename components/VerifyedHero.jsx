@@ -20,7 +20,7 @@ const VerifyedHero = () => {
                 <motion.div className="felx text-3xl lg:text-5xl luthier-regular flex justify-center border-red-500 "
                 >
                     {/* date */}
-                    <div className=" overflow-hidden text-center justify-center relative top-0 left-0"
+                    <div className=" libre overflow-hidden text-center justify-center relative top-0 left-0"
                     >
                         <motion.div className="overflow-hidden w-0  absolute"
                             animate={{ width: "fit-content" }}

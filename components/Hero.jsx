@@ -86,7 +86,6 @@ const Hero = () => {
             )}
 
             {/* dynamic hero section */}
-
             {authState === "authorized" ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center' >
                 {/* error message */}
                 {authState === "wrong accessCode" ? <WrongAccesCode unvisible={false} /> : <WrongAccesCode unvisible={true} />}
