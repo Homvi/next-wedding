@@ -50,7 +50,7 @@ const Providers = () => {
               height={507}
             />
           </div>
-          <div className="text-center flex items-end justify-center luthier-bold-italic">Papp Ferenc - vőfély</div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">Pap Ferenc - vőfély</div>
         </div>
 
         {/* grid element Band*/}

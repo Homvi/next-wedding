@@ -80,7 +80,7 @@ const Hero = () => {
 
             {authState === "authorized" && (
                 <>
-                    <nav className='absolute w-screen z-30 top-0  flex justify-center  md:justify-end' >{actualUser && <div className='luthier-regular  md:px-11 text-2xl text-center italic text-[#fdfbf7] drop-shadow-lg p-3' >Üdv, {actualUser.firstName}  </div>}</nav>
+                    <nav className='absolute w-screen z-30 top-0  flex justify-center  md:justify-end' >{actualUser && <div className='luthier-regular hidden  md:px-11 text-2xl text-center italic text-[#fdfbf7] drop-shadow-lg p-3' >Üdv, {actualUser.firstName}  </div>}</nav>
                     <nav className='absolute w-screen z-30 top-0  flex justify-end md:justify-start ' >{actualUser && <div onClick={handleSignOut} className="text-white text-3xl cursor-pointer p-3"><AiOutlineUserSwitch /></div>}</nav>
                 </>
             )}
