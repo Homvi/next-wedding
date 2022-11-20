@@ -211,4 +211,22 @@ const itemData = [
         width: 5568,
         height: 3712
     },
+    {
+        img: '/images/wedding (27).jpg',
+        title: '26',
+        width: 1707,
+        height: 2560
+    },
+    {
+        img: '/images/wedding (28).jpg',
+        title: '26',
+        width: 5568,
+        height: 3712
+    },
+    {
+        img: '/images/wedding (29).jpg',
+        title: '26',
+        width: 5208,
+        height: 3472
+    },
 ];
