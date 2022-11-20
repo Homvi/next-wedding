@@ -58,6 +58,17 @@
     font-weight: 100;
     src: url(../public/assets/fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
   }
+
+  @font-face {
+    font-family: "Parisienne-Regular";
+    font-weight: 700;
+    src: url(../public/assets/fonts/Parisienne/Parisienne-Regular.ttf);
+  }
+}
+
+.Parisienne-Regular {
+  font-family: "Parisienne-Regular", "Times New Roman";
+  font-weight: 400;
 }
 
 .libre {
