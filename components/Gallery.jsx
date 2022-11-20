@@ -56,20 +56,8 @@ export default function MasonryImageList() {
 
 const itemData = [
     {
-        img: '/images/wedding (2).jpg',
-        title: '2',
-        width: 3712,
-        height: 5568
-    },
-    {
         img: "/images/wedding (1).jpg",
         title: '1',
-        width: 3712,
-        height: 5568
-    },
-    {
-        img: '/images/wedding (3).jpg',
-        title: '3',
         width: 3712,
         height: 5568
     },
@@ -80,22 +68,34 @@ const itemData = [
         height: 5163
     },
     {
+        img: '/images/wedding (3).jpg',
+        title: '3',
+        width: 3712,
+        height: 5568
+    },
+    {
         img: '/images/wedding (5).jpg',
         title: '5',
         width: 3378,
         height: 5067
     },
     {
-        img: '/images/wedding (6).jpg',
-        title: '6',
-        width: 2560,
-        height: 1707
-    },
-    {
         img: '/images/wedding (7).jpg',
         title: '7',
         width: 3196,
         height: 4794
+    },
+    {
+        img: '/images/wedding (2).jpg',
+        title: '2',
+        width: 3712,
+        height: 5568
+    },
+    {
+        img: '/images/wedding (6).jpg',
+        title: '6',
+        width: 2560,
+        height: 1707
     },
     {
         img: '/images/wedding (8).jpg',
@@ -122,26 +122,20 @@ const itemData = [
         height: 5568
     },
     {
-        img: '/images/wedding (12).jpg',
-        title: '12',
-        width: 1964,
-        height: 2755
-    },
-    {
         img: '/images/wedding (13).jpg',
         title: '13',
         width: 1707,
         height: 2560
     },
     {
-        img: "/images/wedding (14).jpg",
-        title: '14',
-        width: 3712,
-        height: 5568
+        img: '/images/wedding (12).jpg',
+        title: '12',
+        width: 1964,
+        height: 2755
     },
     {
-        img: '/images/wedding (15).jpg',
-        title: '15',
+        img: "/images/wedding (14).jpg",
+        title: '14',
         width: 3712,
         height: 5568
     },
@@ -158,8 +152,8 @@ const itemData = [
         height: 5568
     },
     {
-        img: '/images/wedding (18).jpg',
-        title: '18',
+        img: '/images/wedding (15).jpg',
+        title: '15',
         width: 3712,
         height: 5568
     },
@@ -170,14 +164,20 @@ const itemData = [
         height: 5568
     },
     {
-        img: '/images/wedding (20).jpg',
-        title: '20',
-        width: 5568,
-        height: 3712
+        img: '/images/wedding (18).jpg',
+        title: '18',
+        width: 3712,
+        height: 5568
     },
     {
         img: '/images/wedding (21).jpg',
         title: '21',
+        width: 5568,
+        height: 3712
+    },
+    {
+        img: '/images/wedding (20).jpg',
+        title: '20',
         width: 5568,
         height: 3712
     },
@@ -188,27 +188,27 @@ const itemData = [
         height: 5568
     },
     {
-        img: '/images/wedding (23).jpg',
-        title: '23',
-        width: 3712,
-        height: 5568
-    },
-    {
         img: '/images/wedding (24).jpg',
         title: '24',
         width: 3712,
         height: 5568
     },
     {
-        img: '/images/wedding (26).jpg',
-        title: '26',
-        width: 5568,
-        height: 3712
+        img: '/images/wedding (23).jpg',
+        title: '23',
+        width: 3712,
+        height: 5568
     },
     {
         img: '/images/wedding (25).jpg',
         title: '25',
         width: 1614,
         height: 2421
+    },
+    {
+        img: '/images/wedding (26).jpg',
+        title: '26',
+        width: 5568,
+        height: 3712
     },
 ];
