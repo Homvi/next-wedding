@@ -29,7 +29,7 @@ export default function MasonryImageList() {
     return (
         <>
 
-            <div className="relative">
+            <div className="relative mb-5">
                 <Box sx={{ width: "100%", height: "100%", }}>
                     <ImageList variant="masonry" cols={3} gap={8} className="p-3">
                         {itemData.map((item, index) => (
@@ -56,14 +56,14 @@ export default function MasonryImageList() {
 
 const itemData = [
     {
-        img: "/images/wedding (1).jpg",
-        title: '1',
+        img: '/images/wedding (2).jpg',
+        title: '2',
         width: 3712,
         height: 5568
     },
     {
-        img: '/images/wedding (2).jpg',
-        title: '2',
+        img: "/images/wedding (1).jpg",
+        title: '1',
         width: 3712,
         height: 5568
     },
@@ -200,15 +200,15 @@ const itemData = [
         height: 5568
     },
     {
-        img: '/images/wedding (25).jpg',
-        title: '25',
-        width: 1614,
-        height: 2421
-    },
-    {
         img: '/images/wedding (26).jpg',
         title: '26',
         width: 5568,
         height: 3712
+    },
+    {
+        img: '/images/wedding (25).jpg',
+        title: '25',
+        width: 1614,
+        height: 2421
     },
 ];
