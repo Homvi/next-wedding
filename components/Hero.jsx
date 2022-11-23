@@ -14,6 +14,7 @@ import OurStory from "./OurStory"
 import OurLove from "./OurLove"
 import ContactInfo from "./ContactInfo"
 import Providers from "./Providers"
+import ToImages from "./ToImages"
 
 
 
@@ -100,6 +101,7 @@ const Hero = () => {
             {/* plan */}
 
 
+            {authState === "authorized" && <ToImages/>}
             {authState === "authorized" && <Intro />}
             {authState === "authorized" && <OurStory />}
             {authState === "authorized" && <OurLove />}
