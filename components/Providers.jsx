@@ -6,6 +6,7 @@ import bestMan from "../public/assets/img/bestMan.jpg"
 import sokoro from "../public/assets/img/sokoro.jpg"
 import sokoroHouse from "../public/assets/img/sokoroHouse.jpg"
 import band from "../public/assets/img/band.jpg"
+import eszter from "../public/assets/img/eszter.jpg"
 
 const Providers = () => {
   return (
@@ -13,8 +14,21 @@ const Providers = () => {
       <h1 className='mt-3 mb-10 text-3xl md:text-4xl tracking-wider uppercase luthier-bold' >Szolgáltatóink</h1>
       <div className="gap-5 grid w-full grid-cols-2 xl:grid-cols-3 p-2 xl:p-0">
 
+        {/* grid element photo eszter*/}
+     {/*    <div className=" w-full">
+          <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
+            <Image
+              alt='photo'
+              src={eszter}
+              objectFit="contain"
+              widt={500}
+            />
+          </div>
+          <div className="text-center flex items-end justify-center luthier-bold-italic">Honvédő Eszter - fotós, webdesigner</div>
+        </div> */}
+
         {/* grid element photo*/}
-        <div className=" w-full">
+       {/*  <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
               alt='photo'
@@ -24,11 +38,11 @@ const Providers = () => {
             />
           </div>
           <div className="text-center flex items-end justify-center luthier-bold-italic">Zengő Ferenc - fotó</div>
-        </div>
+        </div> */}
 
 
         {/* grid element video*/}
-        <div className=" w-full">
+      {/*   <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
               alt='video'
@@ -38,10 +52,10 @@ const Providers = () => {
             />
           </div>
           <div className="text-center flex items-end justify-center luthier-bold-italic">KuriMedia - videó</div>
-        </div>
+        </div> */}
 
         {/* grid element best man */}
-        <div className=" w-full">
+      {/*   <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
               alt='best Man'
@@ -51,10 +65,10 @@ const Providers = () => {
             />
           </div>
           <div className="text-center flex items-end justify-center luthier-bold-italic">Pap Ferenc - vőfély</div>
-        </div>
+        </div> */}
 
         {/* grid element Band*/}
-        <div className=" w-full">
+      {/*   <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
               alt='Band'
@@ -64,10 +78,10 @@ const Providers = () => {
             />
           </div>
           <div className="text-center flex items-end justify-center luthier-bold-italic">Zé Klub zenekar - zene</div>
-        </div>
+        </div> */}
 
         {/* grid element sokoro*/}
-        <div className=" w-full">
+      {/*   <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
               alt='sokoro'
@@ -77,10 +91,10 @@ const Providers = () => {
             />
           </div>
           <div className="text-center flex items-end justify-center luthier-bold-italic">Sokoró fogadó - Lakodalmas helyszín</div>
-        </div>
+        </div> */}
 
         {/* grid element sokoro house*/}
-        <div className=" w-full">
+      {/*   <div className=" w-full">
           <div className="image-container flex justify-center items-center relative  h-fit w-[100%]">
             <Image
               alt='sokoro'
@@ -90,10 +104,7 @@ const Providers = () => {
             />
           </div>
           <div className="text-center flex items-end justify-center luthier-bold-italic">Sokoró fogadó - Lakodalmas helyszín</div>
-        </div>
-
-
-
+        </div> */}
       </div>
     </section>
   )

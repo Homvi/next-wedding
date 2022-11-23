@@ -80,7 +80,7 @@ const Hero = () => {
 
             {authState === "authorized" && (
                 <>
-                    <nav className='absolute w-screen z-30 top-0  flex justify-center  md:justify-end' >{actualUser && <div className='luthier-regular hidden  md:px-11 text-2xl text-center italic text-[#fdfbf7] drop-shadow-lg p-3' >Üdv, {actualUser.firstName}  </div>}</nav>
+                    <nav className='absolute w-screen z-30 top-0  flex justify-center  md:justify-end' >{actualUser && <div className='luthier-regular hidden  md:px-11 text-2xl text-center italic text-[#fdfbf7] drop-shadow-lg p-3 opacity-0' >Üdv, {actualUser.firstName}  </div>}</nav>
                     <nav className='absolute w-screen z-30 top-0  flex justify-end md:justify-start ' >{actualUser && <div onClick={handleSignOut} className="text-white text-3xl cursor-pointer p-3"><AiOutlineUserSwitch /></div>}</nav>
                 </>
             )}
@@ -89,7 +89,9 @@ const Hero = () => {
             {authState === "authorized" ? <VerifyedHero /> : (<div className='relative  text-[#fdfbf7] flex flex-col h-screen z-20 w-screen items-center justify-center' >
                 {/* error message */}
                 {authState === "wrong accessCode" ? <WrongAccesCode unvisible={false} /> : <WrongAccesCode unvisible={true} />}
-                <h3 className='text-xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-regular md:mb-2 ' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
+                <h3 className=' text-3xl md:text-4xl max-w-[500px]  drop-shadow-2xl md:mt-52 flex text-center p-2 luthier-italic md:mb-2 ' >Kedves vendég!
+                </h3>
+                <h3 className=' text-2xl md:text-3xl max-w-[500px]  drop-shadow-xl flex text-center p-2 luthier-italic md:mb-2 ' >Ide írhatod a meghívón található QR kód alatti számsort a belépéshez</h3>
                 <input value={accessCode} onKeyPress={e => handleEnter(e)} onChange={e => setAccessCode(e.target.value)} type="text" className='border-4 border-[#fdfbf7]/80 m-2 rounded-xl bg-transparent px-2 md:min-w-[400px] ' />
                 {/* submit btn */}
                 <button onClick={e => handleSubmit(e.target.value)} className='luthier-bold px-3 bg-[#fdfbf7] text-lg text-[#ffbd59] rounded-xl m-3 '>Küldés</button>
