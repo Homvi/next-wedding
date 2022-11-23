@@ -54,179 +54,494 @@ export default function MasonryImageList() {
     );
 }
 
+console.log("/images/wedding (1).jpg");
+
+
 const itemData = [
     {
-        img: "/images/wedding (1).jpg",
-        title: '1',
-        width: 3712,
-        height: 5568
+      img: '/images/img (1).jpg',
+      title: '1',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (4).jpg',
-        title: '4',
-        width: 3442,
-        height: 5163
+      img: '/images/img (2).jpg',
+      title: '2',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (3).jpg',
-        title: '3',
-        width: 3712,
-        height: 5568
+      img: '/images/img (3).jpg',
+      title: '3',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (5).jpg',
-        title: '5',
-        width: 3378,
-        height: 5067
+      img: '/images/img (4).jpg',
+      title: '4',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (7).jpg',
-        title: '7',
-        width: 3196,
-        height: 4794
+      img: '/images/img (5).jpg',
+      title: '5',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (2).jpg',
-        title: '2',
-        width: 3712,
-        height: 5568
+      img: '/images/img (6).jpg',
+      title: '6',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (6).jpg',
-        title: '6',
-        width: 2560,
-        height: 1707
+      img: '/images/img (7).jpg',
+      title: '7',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (8).jpg',
-        title: '8',
-        width: 3712,
-        height: 5568
+      img: '/images/img (8).jpg',
+      title: '8',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (9).jpg',
-        title: '9',
-        width: 1707,
-        height: 2560
+      img: '/images/img (9).jpg',
+      title: '9',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (10).jpg',
-        title: '10',
-        width: 1707,
-        height: 2560
+      img: '/images/img (10).jpg',
+      title: '10',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (11).jpg',
-        title: '11',
-        width: 3712,
-        height: 5568
+      img: '/images/img (11).jpg',
+      title: '11',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (13).jpg',
-        title: '13',
-        width: 1707,
-        height: 2560
+      img: '/images/img (12).jpg',
+      title: '12',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (12).jpg',
-        title: '12',
-        width: 1964,
-        height: 2755
+      img: '/images/img (13).jpg',
+      title: '13',
+      width: '????',
+      height: '????'
     },
     {
-        img: "/images/wedding (14).jpg",
-        title: '14',
-        width: 3712,
-        height: 5568
+      img: '/images/img (14).jpg',
+      title: '14',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (16).jpg',
-        title: '16',
-        width: 3495,
-        height: 5027
+      img: '/images/img (15).jpg',
+      title: '15',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (17).jpg',
-        title: '17',
-        width: 3712,
-        height: 5568
+      img: '/images/img (16).jpg',
+      title: '16',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (15).jpg',
-        title: '15',
-        width: 3712,
-        height: 5568
+      img: '/images/img (17).jpg',
+      title: '17',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (19).jpg',
-        title: '19',
-        width: 3712,
-        height: 5568
+      img: '/images/img (18).jpg',
+      title: '18',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (18).jpg',
-        title: '18',
-        width: 3712,
-        height: 5568
+      img: '/images/img (19).jpg',
+      title: '19',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (21).jpg',
-        title: '21',
-        width: 5568,
-        height: 3712
+      img: '/images/img (20).jpg',
+      title: '20',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (20).jpg',
-        title: '20',
-        width: 5568,
-        height: 3712
+      img: '/images/img (21).jpg',
+      title: '21',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (22).jpg',
-        title: '22',
-        width: 3712,
-        height: 5568
+      img: '/images/img (22).jpg',
+      title: '22',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (24).jpg',
-        title: '24',
-        width: 3712,
-        height: 5568
+      img: '/images/img (23).jpg',
+      title: '23',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (23).jpg',
-        title: '23',
-        width: 3712,
-        height: 5568
+      img: '/images/img (24).jpg',
+      title: '24',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (25).jpg',
-        title: '25',
-        width: 1614,
-        height: 2421
+      img: '/images/img (25).jpg',
+      title: '25',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (26).jpg',
-        title: '26',
-        width: 5568,
-        height: 3712
+      img: '/images/img (26).jpg',
+      title: '26',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (27).jpg',
-        title: '26',
-        width: 1707,
-        height: 2560
+      img: '/images/img (27).jpg',
+      title: '27',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (28).jpg',
-        title: '26',
-        width: 5568,
-        height: 3712
+      img: '/images/img (28).jpg',
+      title: '28',
+      width: '????',
+      height: '????'
     },
     {
-        img: '/images/wedding (29).jpg',
-        title: '26',
-        width: 5208,
-        height: 3472
+      img: '/images/img (29).jpg',
+      title: '29',
+      width: '????',
+      height: '????'
     },
-];
+    {
+      img: '/images/img (30).jpg',
+      title: '30',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (31).jpg',
+      title: '31',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (32).jpg',
+      title: '32',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (33).jpg',
+      title: '33',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (34).jpg',
+      title: '34',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (35).jpg',
+      title: '35',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (36).jpg',
+      title: '36',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (37).jpg',
+      title: '37',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (38).jpg',
+      title: '38',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (39).jpg',
+      title: '39',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (40).jpg',
+      title: '40',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (41).jpg',
+      title: '41',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (42).jpg',
+      title: '42',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (43).jpg',
+      title: '43',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (44).jpg',
+      title: '44',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (45).jpg',
+      title: '45',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (46).jpg',
+      title: '46',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (47).jpg',
+      title: '47',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (48).jpg',
+      title: '48',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (49).jpg',
+      title: '49',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (50).jpg',
+      title: '50',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (51).jpg',
+      title: '51',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (52).jpg',
+      title: '52',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (53).jpg',
+      title: '53',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (54).jpg',
+      title: '54',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (55).jpg',
+      title: '55',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (56).jpg',
+      title: '56',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (57).jpg',
+      title: '57',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (58).jpg',
+      title: '58',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (59).jpg',
+      title: '59',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (60).jpg',
+      title: '60',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (61).jpg',
+      title: '61',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (62).jpg',
+      title: '62',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (63).jpg',
+      title: '63',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (64).jpg',
+      title: '64',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (65).jpg',
+      title: '65',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (66).jpg',
+      title: '66',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (67).jpg',
+      title: '67',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (68).jpg',
+      title: '68',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (69).jpg',
+      title: '69',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (70).jpg',
+      title: '70',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (71).jpg',
+      title: '71',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (72).jpg',
+      title: '72',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (73).jpg',
+      title: '73',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (74).jpg',
+      title: '74',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (75).jpg',
+      title: '75',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (76).jpg',
+      title: '76',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (77).jpg',
+      title: '77',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (78).jpg',
+      title: '78',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (79).jpg',
+      title: '79',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (80).jpg',
+      title: '80',
+      width: '????',
+      height: '????'
+    },
+    {
+      img: '/images/img (81).jpg',
+      title: '81',
+      width: '????',
+      height: '????'
+    }
+  ]
