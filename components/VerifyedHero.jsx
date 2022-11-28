@@ -8,19 +8,19 @@ const VerifyedHero = () => {
         <div className='relative  text-[#fdfbf7]  left-0 flex flex-col h-screen z-20 w-screen items-center justify-center' >
             <AnimatePresence>
                 <div key={1} className="flex justify-center relative w-fit   mb-1">
-                    <motion.h3 className='w-0 flex text-5xl top-0 left-0 pb-5 absolute overflow-hidden  justify-start whitespace-nowrap  parisienne text-5x lg:text-8xl'
+                    <motion.h3 className='w-0 flex text-5xl top-0 left-0 pb-5 absolute overflow-hidden  justify-start whitespace-nowrap  noto-light text-5x lg:text-8xl'
                         animate={{ width: "fit-content" }}
                         transition={{ duration: 5 }}
                     >Brigi & Kálmi <span className='opacity-0' >,</span>
                     </motion.h3>
-                    <div className="w-fit  opacity-0  whitespace-nowrap parisienne  pb-5 text-5xl lg:text-8xl">
+                    <div className="w-fit  opacity-0 pb-5 whitespace-nowrap noto-light   text-5xl lg:text-8xl">
                         Brigi & Kálmi &nbsp;
                     </div>
                 </div>
                 <motion.div className="felx text-3xl lg:text-5xl luthier-regular flex justify-center border-red-500 "
                 >
                     {/* date */}
-                    <div className=" libre overflow-hidden text-center justify-center relative top-0 left-0"
+                    <div className=" libre overflow-hidden pb-10 pt-5 text-center justify-center relative top-0 left-0"
                     >
                         <motion.div className="overflow-hidden w-0  absolute"
                             animate={{ width: "fit-content" }}
