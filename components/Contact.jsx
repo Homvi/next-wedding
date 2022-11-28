@@ -38,13 +38,13 @@ const Contact = ({ authorized }) => {
                     </p>
                     <p className='flex justify-start flex-col pl-5 w-[90%] my-5' >
                         <label htmlFor="howManyPerson" className='text-left pb-2  text-lg' >
-                            Hányan jöttök?
+                        Hány fővel érkeztek?
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2 placeholder-slate-300 rounded-xl bg-transparent' type="text" placeholder="fő, név..." name="howManyPerson" id="howManyPerson" />
                     </p>
                     <p className='flex justify-start flex-col pl-5 w-[90%] my-5' >
                         <label htmlFor="foodIntolerance" className='text-left   text-lg pb-2' >
-                            Írd meg, hogy van e ételérzékenységed.
+                        Van ételérzékenységetek? Amennyiben van írd meg, hogy kinek és milyen érzékenysége van.  
                         </label>
                         <input className='border-4 border-[#ffbd59]/80 px-2  rounded-xl bg-transparent' name="foodIntolerance" id="foodIntolerance"></input>
                     </p>

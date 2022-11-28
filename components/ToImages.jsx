@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const ToImages = () => {
     return (
-        <section className=' py-5 border-b-4 border-[#ffbd59] md:border-[#faf8ebc3]  items-center w-[95vw] text-center flex flex-col' >
+        <section className=' py-5   items-center w-[95vw] text-center flex flex-col' >
             <h1 className='mt-3 mb-0 uppercase luthier-bold text-3xl md:text-4xl tracking-wider' >  <Link href="/gallery">Képtár</Link></h1>
 
             <Link href="/gallery">
