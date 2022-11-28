@@ -38,7 +38,7 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
                     default: { ease: 'easeIn' }
                 }}
             >
-                <div className="flex justify-center prata p-2 pt-10 lg:text-xl">
+                <div className="flex justify-center prata pb-2 pt-10 lg:text-xl">
                     <span>{remainingTime.days}</span>
                     <span className='leading-[23px]  px-[2px]' >&nbsp;nap &nbsp;:&nbsp; </span>
                     <span className='two-numbers text-center'>{remainingTime.hours}</span>
