@@ -46,7 +46,7 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
                     <span className='two-numbers  text-center' >{remainingTime.minutes} </span>
                     <span className='leading-[23px]  px-[2px]' >&nbsp;perc &nbsp;:&nbsp; </span>
                     <span className='two-numbers  text-center' >{remainingTime.seconds} </span>
-                    <span className='leading-[23px]  px-[2px]' >másodperc </span>
+                    <span className='leading-[23px]  px-[2px]' >&nbsp;másodperc </span>
                 </div>
             </motion.div>
         </AnimatePresence>
