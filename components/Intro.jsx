@@ -2,7 +2,8 @@ import React from 'react'
 import holdingHands from "../public/assets/img/holdingHands.jpg"
 import Image from 'next/image'
 import flower1 from "../public/assets/icon/white/virag1.svg"
-import dove from "../public/assets/icon/galamb.svg"
+import whitedove from "../public/assets/icon/feher_galamb.svg"
+import greendove from "../public/assets/icon/zold_galamb.svg"
 
 import flower2 from "../public/assets/icon/white/virag2.svg"
 import flower1Green from "../public/assets/icon/green/virag1.svg"
@@ -26,7 +27,8 @@ const Intro = () => {
                     <span className='py-5' >
                         Szeretettel várunk benneteket!
                     </span>
-                    <span className='w-[80px] pb-10 ' ><Image src={dove} /></span>
+                    <span className='w-[120px] pb-10 hidden md:block' ><Image src={whitedove} /></span>
+                    <span className='w-[140px] pb-10 md:hidden ' ><Image src={greendove} /></span>
 
                 </div>
                 <div className="relative hidden rounded-sm mx-auto md:block overflow-y-hidden w-[55vh]">
