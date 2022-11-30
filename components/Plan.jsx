@@ -36,99 +36,140 @@ const Plan = () => {
         <section className='py-5 w-[95vw] border-b-4 border-[#ffbd59] md:border-[#faf8ebc3] relative min-h-screen items-center text-center  flex flex-col' >
             {/* flowers for flip scale-x-[-1] */}
             {/* dekstop */}
-            <span className='w-[80px] m-2 hidden md:block absolute top-10 left-[-35px] sm:left-[-75px] sm:w-[110px]' ><Image src={flower1} /></span>
-            <span className='w-[80px] m-2 hidden md:block absolute rotate-[330deg] top-[500px] right-[-35px] sm:right-[-85px] sm:w-[150px]' ><Image src={flower2} /></span>
+            {/*  <span className='w-[80px] m-2 hidden md:block absolute top-10 left-[-35px] sm:left-[-75px] sm:w-[110px]' ><Image src={flower1} /></span>
+            <span className='w-[80px] m-2 hidden md:block absolute rotate-[330deg] top-[500px] right-[-35px] sm:right-[-85px] sm:w-[150px]' ><Image src={flower2} /></span> */}
             {/* mobile */}
-            <span className='w-[60px] m-2 absolute md:hidden top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1Green} /></span>
-            <span className='w-[60px] m-2 absolute md:hidden rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2Green} /></span>
+            {/*  <span className='w-[60px] m-2 absolute md:hidden top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1Green} /></span>
+            <span className='w-[60px] m-2 absolute md:hidden rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2Green} /></span> */}
 
             <div className="text-center w-[100%] items-center  flex flex-col">
 
                 <h1 className='uppercase text-3xl md:text-4xl  tracking-wider mt-3 mb-10 luthier-bold ' >Menetrend</h1>
 
                 {/* maiden request */}
-                {/* desktop */}
-                <div className="items-baseline hidden md:flex">
-                    <p className=' text-2xl libre-italic' ><span className='libre-italic text-[#ffbd59] text-2xl' >13:00</span> Lánykikérés</p><span className='w-[20px] m-2' ><Image src={maiden} /></span>
+                <div className="row flex  relative w-full  ">
+                    {/* time */}
+                    <div className="felx relative flex-col h-full w-[40%]">
+                        <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >13:00</span>
+                    </div>
+                    {/* place */}
+                    <div className="flex w-[60%] h-full border-l-2  justify-start items-start text-left relative  ">
+                        <div className="flex items-start flex-col justify-start pb-5 w-full">
+                            <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
+                                <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                Lánykikérés
+                            </p>
+                            <p className='libre-italic  pl-10 md:pl-20 w-full' ><a target="_blank" href={adresses.maidenRequest} rel="noopener noreferrer">8111 Seregélyes Ady Endre utca 99</a> </p>
+                        </div>
+                    </div>
                 </div>
-                {/* mobile */}
-                <div className="flex md:hidden items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >13:00</span> Lánykikérés</p><span className='w-[20px] m-2' ><Image src={maidenGreen} /></span>
+                {/* church ceremony */}
+                <div className="row flex  relative w-full  ">
+                    {/* time */}
+                    <div className="felx relative flex-col  w-[40%]">
+                        <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >14:00</span>
+                    </div>
+                    {/* place */}
+                    <div className="flex w-[60%] h-full border-l-2  justify-start items-start text-left relative  ">
+                        <div className="flex items-start flex-col justify-start pb-5 w-full">
+                            <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
+                                <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                Templomi szertartás
+                            </p>
+                            <p className='libre-italic  pl-10 md:pl-20 w-full' ><a target="_blank" href={adresses.churcCremony} rel="noopener noreferrer">Budai úti Református Templom 8000 Székesfehérvár Budai út 113.</a> </p>
+                        </div>
+                    </div>
                 </div>
-                <p className='libre-italic  text-center ' ><a target="_blank" href={adresses.maidenRequest} rel="noopener noreferrer">8111 Seregélyes Ady Endre utca 99</a> </p>
-
-                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
-
-                {/* churc cremony */}
-                {/* desktop */}
-                <div className="hidden md:flex items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >14:00</span >  Templomi szertartás</p><span className='w-[20px] m-2' ><Image src={churc} /></span>
+                {/* waith guest */}
+                <div className="row flex  relative w-full  ">
+                    {/* time */}
+                    <div className="felx relative flex-col  w-[40%]">
+                        <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >16:30</span>
+                    </div>
+                    {/* place */}
+                    <div className="flex w-[60%] h-full border-l-2  justify-start items-start text-left relative  ">
+                        <div className="flex items-start flex-col justify-start pb-5 w-full">
+                            <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
+                                <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                Vendégvárás
+                            </p>
+                            <p className='libre-italic  pl-10 md:pl-20 w-full' ><a target="_blank" href={adresses.waitGuest} rel="noopener noreferrer">Sokoró Fogadó 9112 Sokorópátka Főmajor</a> </p>
+                        </div>
+                    </div>
                 </div>
-                {/* mobile */}
-                <div className="flex md:hidden items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >14:00</span >  Templomi szertartás</p><span className='w-[20px] m-2' ><Image src={churcGreen} /></span>
-                </div>
-                <p className='libre-italic text-center ' ><a target="_blank" href={adresses.churcCremony} rel="noopener noreferrer">Budai úti Református Templom 8000 Székesfehérvár Budai út 113.</a> </p>
-
-                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
-
-                {/* wait guest */}
-                {/* desktop */}
-                <div className="hidden md:flex items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >16:30</span> Vendégvárás</p><span className='w-[20px] m-2' ><Image src={guest} /></span>
-                </div>
-                {/* mobile */}
-                <div className="flex md:hidden items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >16:30</span> Vendégvárás</p><span className='w-[20px] m-2' ><Image src={guestGreen} /></span>
-                </div>
-                <p className='libre-italic text-center ' > <a target="_blank" href={adresses.waitGuest} rel="noopener noreferrer">Sokoró Fogadó 9112 Sokorópátka Főmajor</a></p>
-
-                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
 
                 {/* civil */}
-                {/* desktop */}
-                <div className="hidden md:flex items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >17:30</span> Polgári szertartás</p><span className='w-[20px] m-2' ><Image src={civil} /></span>
-                </div>
-                {/* mobile */}
-                <div className="flex md:hidden items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >17:30</span> Polgári szertartás</p><span className='w-[20px] m-2' ><Image src={civilGreen} /></span>
-                </div>
-                <p className='libre-italic text-center' >Pavilon</p>
-
-                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
-
-                {/* Dinner */}
-                {/* desktop */}
-                <div className="hidden md:flex items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >19:30</span> Vacsora</p><span className='w-[20px] m-2' ><Image src={dinner} /></span>
-                </div>
-                {/* mobile */}
-                <div className="flex md:hidden items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >19:30</span> Vacsora</p><span className='w-[20px] m-2' ><Image src={dinnerGreen} /></span>
+                <div className="row flex  relative w-full  ">
+                    {/* time */}
+                    <div className="felx relative flex-col  w-[40%]">
+                        <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >17:30</span>
+                    </div>
+                    {/* place */}
+                    <div className="flex w-[60%] h-full border-l-2  justify-start items-start text-left relative  ">
+                        <div className="flex items-start flex-col justify-start pb-5 w-full">
+                            <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
+                                <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                Polgári szertartás
+                            </p>
+                            <p className='libre-italic  pl-10 md:pl-20 w-full' >Pavilon </p>
+                        </div>
+                    </div>
                 </div>
 
-                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
+                {/* dinner */}
+                <div className="row flex  relative w-full  ">
+                    {/* time */}
+                    <div className="felx relative flex-col  w-[40%]">
+                        <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >19:30</span>
+                    </div>
+                    {/* place */}
+                    <div className="flex w-[60%] h-full border-l-2  justify-start items-start text-left relative  ">
+                        <div className="flex items-start flex-col justify-start pb-5 w-full">
+                            <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
+                                <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                Vacsora
+                            </p>
+                            <p className='libre-italic  pl-10 md:pl-20 w-full invisible' >placeholder</p>
+                        </div>
+                    </div>
+                </div>
 
-                {/* Cake */}
-                {/* desktop */}
-                <div className="hidden md:flex items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >22:30</span> Menyasszonyi torta</p><span className='w-[20px] m-2' ><Image src={cake} /></span>
-                </div>
-                {/* mobile */}
-                <div className="flex md:hidden items-baseline">
-                    <p className=' text-2xl libre-italic' ><span className='text-[#ffbd59] text-2xl libre-italic' >22:30</span> Menyasszonyi torta</p><span className='w-[20px] m-2' ><Image src={cakeGreen} /></span>
+                {/* cake */}
+
+                <div className="row flex  relative w-full  ">
+                    {/* time */}
+                    <div className="felx relative flex-col  w-[40%]">
+                        <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >22:30</span>
+                    </div>
+                    {/* place */}
+                    <div className="flex w-[60%] h-full border-l-2  justify-start items-start text-left relative  ">
+                        <div className="flex items-start flex-col justify-start pb-5 w-full">
+                            <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
+                                <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                Menyasszonyi torta
+                            </p>
+                            <p className='libre-italic  pl-10 md:pl-20 w-full invisible' >placeholder</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div id="hr" className='w-[4px] h-[4px] bg-[#fff] m-4 rounded-full'></div>
-                {/* Dance */}
-                {/* desktop */}
-                <div className="hidden md:flex items-baseline">
-                    <p className=' text-2xl libre-italic mb-5' ><span className='text-[#ffbd59] text-2xl libre-italic' >00:00</span> Menyecsketánc</p><span className='w-[20px] m-2' ><Image src={dance} /></span>
-                </div>
-                {/* mobile */}
-                <div className="flex md:hidden items-baseline">
-                    <p className=' text-2xl libre-italic mb-5' ><span className='text-[#ffbd59] text-2xl libre-italic' >00:00</span> Menyecsketánc</p><span className='w-[20px] m-2' ><Image src={danceGreen} /></span>
+                {/* dance */}
+
+                <div className="row flex  relative w-full  ">
+                    {/* time */}
+                    <div className="felx relative flex-col  w-[40%]">
+                        <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >00:00</span>
+                    </div>
+                    {/* place */}
+                    <div className="flex w-[60%] h-full border-l-2  justify-start items-start text-left relative  ">
+                        <div className="flex items-start flex-col justify-start pb-5 w-full">
+                            <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
+                                <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                               Menyecsketánc
+                            </p>
+                            <p className='libre-italic  pl-10 md:pl-20 w-full invisible' >placeholder</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
