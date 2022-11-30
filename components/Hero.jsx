@@ -102,8 +102,8 @@ const Hero = () => {
 
 
             {authState === "authorized" && <Intro />}
-            {authState === "authorized" && <ToImages/>}
             {authState === "authorized" && <OurStory />}
+            {authState === "authorized" && <ToImages/>}
             {authState === "authorized" && <OurLove />}
             {authState === "authorized" && <Plan />}
             {authState === "authorized" && <ContactInfo />}
