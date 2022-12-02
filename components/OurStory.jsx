@@ -11,8 +11,8 @@ const OurStory = () => {
             <div className="">
                 <div className=" h-full flex flex-col max-w-md relative  mx-auto  ">
                     <h1 className='luthier-bold text-3xl md:text-4xl mt-3   w-fit mx-auto tracking-wider text-center uppercase' >A mi kis<br /> történetünk...</h1>
-                    <span className='mt-[-25px] md:mt-[-45px] opacity-80 md:hidden' ><Image src={greenLeaves} /></span>
-                    <span className='mt-[-25px] md:mt-[-45px] hidden md:block opacity-60' ><Image src={whiteLeaves} /></span>
+                    <span className='mt-[-25px] md:mt-[-45px]  md:hidden' ><Image src={greenLeaves} /></span>
+                    <span className='mt-[-25px] md:mt-[-45px] hidden md:block ' ><Image src={whiteLeaves} /></span>
                 </div>
             </div>
             <div className="flex w-[100%] justify-around p-5 items-center ">
