@@ -6,12 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "dayjs": "^1.11.5",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.13",
-    "framer-motion": "^7.6.1",
+    "dayjs": "^1.11.5",
+    "framer-motion": "^7.6.18",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",

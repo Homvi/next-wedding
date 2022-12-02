@@ -29,13 +29,13 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
     return (
         <AnimatePresence>
             <motion.div
-                initial={{ opacity: 0, y: 200 }}
+                initial={{ opacity: 0, y: 150 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
-                    delay: 4,
-                    y: { duration: 3 },
-                    opacity: { duration: 3 },
-                    default: { ease: 'easeIn' }
+                    delay: 2,
+                    y: { duration: 2 },
+                    opacity: { duration: 2 },
+                    default: { ease: 'easeInOut' }
                 }}
             >
                 <div className="flex justify-center prata pb-2 lg:text-xl">
