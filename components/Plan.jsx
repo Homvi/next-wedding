@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import leaf_white from "../public/assets/icon/level_feher.svg"
+import leaf_green from "../public/assets/icon/level_zold.svg"
 
-import maiden from "../public/assets/icon/white/lanykikeres.svg"
+/* import maiden from "../public/assets/icon/white/lanykikeres.svg"
 import churc from "../public/assets/icon/white/templom.svg"
 import dance from "../public/assets/icon/white/menyecsketanc.svg"
 import cake from "../public/assets/icon/white/torta.svg"
@@ -18,7 +20,8 @@ import dinnerGreen from "../public/assets/icon/green/vacsora.svg"
 import guestGreen from "../public/assets/icon/green/vendegvaras.svg"
 import civilGreen from "../public/assets/icon/green/polgari.svg"
 import flower1Green from "../public/assets/icon/green/virag1.svg"
-import flower2Green from "../public/assets/icon/green/virag2.svg"
+import flower2Green from "../public/assets/icon/green/virag2.svg" */
+
 
 
 
@@ -33,7 +36,7 @@ const Plan = () => {
     }
 
     return (
-        <section className='py-5 w-[95vw] border-b-4 border-[#ffbd59] md:border-[#faf8ebc3] relative min-h-screen items-center text-center  flex flex-col' >
+        <section className='py-5 w-[95vw]  relative min-h-screen items-center text-center  flex flex-col' >
             {/* flowers for flip scale-x-[-1] */}
             {/* dekstop */}
             {/*  <span className='w-[80px] m-2 hidden md:block absolute top-10 left-[-35px] sm:left-[-75px] sm:w-[110px]' ><Image src={flower1} /></span>
@@ -44,7 +47,13 @@ const Plan = () => {
 
             <div className="text-center w-[100%] items-center  flex flex-col">
 
-                <h1 className='uppercase text-3xl md:text-4xl  tracking-wider mt-3 mb-10 luthier-bold ' >Menetrend</h1>
+                <h1 className='uppercase text-3xl md:text-4xl  tracking-wider mt-3  luthier-bold ' >Menetrend</h1>
+                <div className=" hidden  mb-10 md:flex flex-col md:flex-row justify-center h-10 w-[100%]">
+                    <Image width={130} src={leaf_white} />
+                </div>
+                <div className="flex  md:hidden mb-10 flex-col md:flex-row justify-center h-10 w-[100%]">
+                    <Image width={130} src={leaf_green} />
+                </div>
 
                 {/* maiden request */}
                 <div className="row flex  relative w-full  ">
