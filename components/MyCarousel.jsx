@@ -5,7 +5,7 @@ import Image from 'next/image';
 function MyCarousel(props) {
     var items = [
         {
-            src: "/../public/assets/img/eszter.jpg",
+            src: "/assets/img/eszter.jpg",
             width: 1365,
             height: 2048,
             name: "Honvédő Eszter - fotó",
@@ -13,37 +13,37 @@ function MyCarousel(props) {
         {
             width: 764,
             height: 1021,
-            src: "/../public/assets/img/bestMan.jpg",
+            src: "/assets/img/bestMan.jpg",
             name: "Pap Ferenc - vőfély",
         },
         {
             width: 750,
             height: 500,
-            src: "/../public/assets/img/band.jpg",
+            src: "/assets/img/band.jpg",
             name: "Zé Klub Zenekar - zene",
         },
         {
             width: 5520,
             height: 3680,
-            src: "/../public/assets/img/photo.jpg",
+            src: "/assets/img/photo.jpg",
             name: "Zengő Ferenc - fotó",
         },
         {
             width: 5184,
             height: 3456,
-            src: "/../public/assets/img/video.jpeg",
+            src: "/assets/img/video.jpeg",
             name: "KuriMedia - videó",
         },
         {
             width: 990,
             height: 660,
-            src: "/../public/assets/img/sokoro.jpg",
+            src: "/assets/img/sokoro.jpg",
             name: "Sokoró Fogadó - lakodalmas helyszín",
         },
         {
             width: 1800,
             height: 1200,
-            src: "/../public/assets/img/sokoroHouse.jpg",
+            src: "/assets/img/sokoroHouse.jpg",
             name: "Sokoró Fogadó - lakodalmas helyszín",
         },
     ]
