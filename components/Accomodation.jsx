@@ -21,16 +21,16 @@ const Accomodation = () => {
     return (
         <section className=' py-5 min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
             <h1 className='mt-3  uppercase luthier-bold text-3xl md:text-4xl tracking-wider' >Szállásfoglalási lehetőségek</h1>
-            <div className=" hidden  mb-10 md:flex flex-col md:flex-row justify-center h-10 w-[100%]">
+            <div className=" hidden  mb-10 md:flex flex-col  justify-center h-10 w-[100%]">
                 <Image width={130} src={leaf_white} />
             </div>
             <div className="flex  md:hidden mb-10 flex-col md:flex-row justify-center h-10 w-[100%]">
                 <Image width={130} src={leaf_green} />
             </div>
-            <div className="flex flex-col  justify-center w-[100%]  ">
+            <div className="flex flex-col xl:flex-row justify-center w-[100%]  ">
 
                 {/* sokoro -> */}
-                <div className="text-center m-5 mx-3 flex flex-col justify-start items-center">
+                <div className="text-center m-5 mx-3 flex   flex-col justify-start items-center">
                     <h3 className='luthier-italic text-2xl text-[#ffbd59]' >Sokoró Fogadó, Sokorópátka</h3>
                     <p className='luthier-italic text-cente my-1 text-lg' >/25 férőhely/</p>
                     <div className='flex relative items-center'>
@@ -67,7 +67,7 @@ const Accomodation = () => {
                 {/* <- sokoro */}
 
                 {/* róza -> */}
-                <div className="text-center m-5 mx-5 flex flex-col justify-start items-center">
+                <div className="text-center m-5 mx-5 flex   flex-col justify-start items-center">
                     <h3 className='luthier-italic text-2xl text-[#ffbd59]' >Róza Vendégház, Tényő
                     </h3>
                     <p className='luthier-italic text-cente my-1 text-lg' >/16 férőhely/</p>
@@ -96,9 +96,11 @@ const Accomodation = () => {
                         <span className='md:hidden mr-1 absolute left-[-20px]'>
                             <Image width={16} height={16} src={location_green} />
                         </span>
-                        <p className="text-center my-1 text-lg libre"><a target="_blank" href={adresses.lovas} rel="noopener noreferrer">9081 Győrújbarát, Tényői u. 1.
+                        <p className="text-center my-1 text-lg libre"><a target="_blank" href={adresses.lovas} rel="noopener noreferrer">9081 Győrújbarát,
                         </a> </p>
                     </div>
+                    <p className="text-center my-1 text-lg libre"><a target="_blank" href={adresses.lovas} rel="noopener noreferrer">Tényői u. 1.
+                    </a> </p>
                     <div className='flex relative items-center'>
                         <span className='hidden md:block mr-1  absolute left-[-20px]'>
                             <Image width={16} height={16} src={phone_white} />
@@ -123,9 +125,11 @@ const Accomodation = () => {
                         <span className='md:hidden mr-1 absolute left-[-20px]'>
                             <Image width={16} height={16} src={location_green} />
                         </span>
-                        <p className="text-center my-1 text-lg libre"><a target="_blank" href={adresses.panorama} rel="noopener noreferrer">  9081 Győrújbarát, Vendégfogadó utca 4.
+                        <p className="text-center my-1 text-lg libre"><a target="_blank" href={adresses.panorama} rel="noopener noreferrer">  9081 Győrújbarát,
                         </a> </p>
                     </div>
+                    <p className="text-center my-1 text-lg libre"><a target="_blank" href={adresses.panorama} rel="noopener noreferrer">Vendégfogadó utca 4.
+                    </a> </p>
                     <div className='flex relative items-center'>
                         <span className='hidden md:block mr-1  absolute left-[-20px]'>
                             <Image width={16} height={16} src={phone_white} />

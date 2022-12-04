@@ -19,8 +19,8 @@ for (let i = 0; i < date.length; i++) {
 
 const VerifyedHero = () => {
     return (
-        <div className='relative  text-[#fdfbf7]  left-0 flex flex-col h-screen z-20 w-screen items-center justify-center' >
-            <div className="flex text-5xl md:text-6xl noto-light mb-5">
+        <div className='relative  text-[#fdfbf7]  left-0 flex flex-col h-screen z-20 w-screen items-center justify-center md:justify-end pb-40' >
+            <div className="flex text-5xl md:text-6xl noto-light mb-10">
                 {arrayOfLetters.map((letter, index) => {
                     return (
                         <motion.div
@@ -39,7 +39,7 @@ const VerifyedHero = () => {
                 }
                 )}
             </div>
-            <div className="flex text-4xl md:text-6xl noto-light mb-5">
+            <div className="flex text-4xl md:text-6xl noto-light mb-10">
                 {arrayOfNumbers.map((letter, index) => {
                     return (
                         <motion.div
