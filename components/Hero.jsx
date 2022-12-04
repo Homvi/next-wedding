@@ -9,6 +9,7 @@ import VerifyedHero from "../components/VerifyedHero"
 import Plan from "../components/Plan"
 import { AiOutlineUserSwitch } from 'react-icons/ai'
 import Intro from "./Intro"
+import Accomodation from "./Accomodation"
 import Contact from "./Contact"
 import OurStory from "./OurStory"
 import OurLove from "./OurLove"
@@ -101,11 +102,12 @@ const Hero = () => {
             {/* plan */}
 
 
-            {authState === "authorized" && <ContactInfo />}
             {authState === "authorized" && <Intro />}
             {authState === "authorized" && <OurStory />}
             {authState === "authorized" && <OurLove />}
             {authState === "authorized" && <Plan />}
+            {authState === "authorized" && <ContactInfo />}
+            {authState === "authorized" && <Accomodation />}
             {authState === "authorized" && <Providers />}
             {authState === "authorized" && <ToImages/>}
             {/*   {authState === "authorized" && <Contact user={actualUser} />} */}

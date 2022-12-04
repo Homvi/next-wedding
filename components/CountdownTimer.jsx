@@ -29,12 +29,12 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
     return (
         <AnimatePresence>
             <motion.div
-                initial={{ opacity: 0, y: 150 }}
+                initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
                     delay: 2,
-                    y: { duration: 2 },
-                    opacity: { duration: 2 },
+                    y: { duration: 1 },
+                    opacity: { duration: 1 },
                     default: { ease: 'easeInOut' }
                 }}
             >
