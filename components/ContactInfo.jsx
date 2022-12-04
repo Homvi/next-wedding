@@ -11,7 +11,7 @@ import mail_white from "../public/assets/icon/mail_white.svg"
 
 const ContactInfo = () => {
     return (
-        <section className=' py-5 border-b-4 border-[#ffbd59] md:border-[#faf8ebc3]  min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
+        <section className=' py-5 min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
             <h1 className='mt-3  uppercase luthier-bold text-3xl md:text-4xl tracking-wider' >Elérhetőségek</h1>
             <div className=" hidden  mb-10 md:flex flex-col md:flex-row justify-center h-10 w-[100%]">
                 <Image width={130} src={leaf_white} />
@@ -19,14 +19,9 @@ const ContactInfo = () => {
             <div className="flex  md:hidden mb-10 flex-col md:flex-row justify-center h-10 w-[100%]">
                 <Image width={130} src={leaf_green} />
             </div>
-
             <div className="flex flex-col md:flex-row justify-center w-[100%]">
-
                 <div className="text-center m-5 mx-8 flex flex-col justify-center items-center">
-
-
                     <h3 className='libre-italic text-xl custom-border-orange' >Balla Brigitta</h3>
-
                     <div className='flex relative items-center'>
                         <span className='hidden md:block mr-1  absolute left-[-20px]'>
                             <Image width={16} height={16} src={phone_white} />
