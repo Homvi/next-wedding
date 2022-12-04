@@ -1,9 +1,18 @@
 import React from 'react'
+import Image from 'next/image'
+import leaf_white from "../public/assets/icon/level_feher.svg"
+import leaf_green from "../public/assets/icon/level_zold.svg"
 
 const ContactInfo = () => {
     return (
         <section className=' py-5 border-b-4 border-[#ffbd59] md:border-[#faf8ebc3]  min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
-            <h1 className='mt-3 mb-10 uppercase luthier-bold text-3xl md:text-4xl tracking-wider' >Elérhetőségek</h1>
+            <h1 className='mt-3  uppercase luthier-bold text-3xl md:text-4xl tracking-wider' >Elérhetőségek</h1>
+            <div className=" hidden  mb-10 md:flex flex-col md:flex-row justify-center h-10 w-[100%]">
+                    <Image width={130} src={leaf_white} />
+                </div>
+                <div className="flex  md:hidden mb-10 flex-col md:flex-row justify-center h-10 w-[100%]">
+                    <Image width={130} src={leaf_green} />
+                </div>
 
             <div className="flex flex-col md:flex-row justify-center w-[100%]">
 
