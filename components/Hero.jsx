@@ -121,7 +121,7 @@ const Hero = () => {
 
             {/*  Phone bcg */}
             <div className="absolute  lg:hidden top-0 left-0 h-screen overflow-y-hidden w-screen ">
-                <Image alt='background' onLoad={handleLoad} src={coverMobile} layout="fill" objectFit='cover'
+                <Image alt='background' onLoad={handleLoad} src={coverMobile} objectPosition="top" layout="fill" objectFit='cover'
                 />
             </div>
 
