@@ -47,7 +47,7 @@ const Plan = () => {
 
             <div className="text-center w-[100%] items-center  flex flex-col">
 
-                <h1 className='uppercase text-3xl md:text-4xl  tracking-wider mt-3  luthier-bold ' >Menetrend</h1>
+                <h1 className='uppercase text-3xl md:text-4xl  tracking-wider mt-3  luthier-regular' >Menetrend</h1>
                 <div className=" hidden  mb-10 md:flex flex-col md:flex-row justify-center h-10 w-[100%]">
                     <Image width={130} src={leaf_white} />
                 </div>

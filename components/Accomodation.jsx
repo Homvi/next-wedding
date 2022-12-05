@@ -20,7 +20,7 @@ const Accomodation = () => {
 
     return (
         <section className=' py-5 min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
-            <h1 className='mt-3  uppercase luthier-bold text-3xl md:text-4xl tracking-wider' >Szállásfoglalási lehetőségek</h1>
+            <h1 className='mt-3  uppercase luthier-regular text-3xl md:text-4xl tracking-wider' >Szállásfoglalási lehetőségek</h1>
             <div className=" hidden  mb-10 md:flex flex-col  justify-center h-10 w-[100%]">
                 <Image width={130} src={leaf_white} />
             </div>

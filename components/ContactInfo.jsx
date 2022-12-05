@@ -11,8 +11,8 @@ import mail_white from "../public/assets/icon/mail_white.svg"
 
 const ContactInfo = () => {
     return (
-        <section className=' py-5 min-h-[50vh] items-center w-[95vw] text-center flex flex-col' >
-            <h1 className='mt-3  uppercase luthier-bold text-3xl md:text-4xl tracking-wider' >Elérhetőségek</h1>
+        <section className=' py-5 min-h-[60vh] items-center w-[95vw] text-center flex flex-col' >
+            <h1 className='mt-3  uppercase luthier-regular text-3xl md:text-4xl tracking-wider' >Elérhetőségek</h1>
             <div className=" hidden  mb-10 md:flex flex-col md:flex-row justify-center h-10 w-[100%]">
                 <Image width={130} src={leaf_white} />
             </div>

@@ -10,7 +10,7 @@ const OurStory = () => {
         <section className=' py-10 w-[95vw]  min-h-screen  items-center  text-center flex flex-col' >
             <div className="">
                 <div className=" h-full flex flex-col max-w-md relative  mx-auto  ">
-                    <h1 className='luthier-bold text-3xl md:text-4xl mt-3   w-fit mx-auto tracking-wider text-center uppercase' >A mi kis<br /> történetünk...</h1>
+                    <h1 className='luthier-regular text-3xl md:text-4xl mt-3   w-fit mx-auto tracking-wider text-center uppercase' >A mi kis<br /> történetünk...</h1>
                     <span className='mt-[-25px] md:mt-[-45px]  md:hidden' ><Image src={greenLeaves} /></span>
                     <span className='mt-[-25px] md:mt-[-45px] hidden md:block ' ><Image src={whiteLeaves} /></span>
                 </div>

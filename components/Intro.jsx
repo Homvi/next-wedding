@@ -27,11 +27,11 @@ const Intro = () => {
             {/*  <span className='w-[60px] m-2 absolute md:hidden bottom-0 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1Green} /></span>
             <span className='w-[60px] m-2 absolute md:hidden rotate-[330deg] top-[30px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2Green} /></span> */}
             <div className="flex w-[100%]  min-h-[80vh]  p-5 items-center">
-                <div className=" flex tracking-wider flex-col justify-around md:tracking-widest leading-loose text-2xl items-center text-center mt-5 md:mt-0 md:h-[90vh] md:w-[60%] md:p-10 p-1 luthier-italic">
+                <div className=" flex tracking-wider flex-col justify-around md:justify-center md:tracking-widest leading-loose text-2xl items-center text-center mt-5 md:mt-0 md:h-[90vh] md:w-[60%] md:p-10 p-1 luthier-italic">
                     Minden kisfiú és kislány megálmodja milyen lesz, ha egyszer neki is eljön a Nagy nap!
                     A mi Nagy napunk 2023. augusztus 26.-a.
                     Osztozzatok örömünkben mikor örök hűséget fogadunk egymásnak!
-                    <span className='py-5' >
+                    <span className='py-5 ' >
                         Szeretettel várunk benneteket!
                     </span>
                     <span className='w-[120px] pb-10 hidden md:block' ><Image src={whitedove} /></span>

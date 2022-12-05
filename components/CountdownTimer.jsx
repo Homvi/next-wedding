@@ -38,15 +38,16 @@ const countDownTimer = ({ countdownTimerstampMs }) => {
                     default: { ease: 'easeInOut' }
                 }}
             >
-                <div className="flex justify-center prata pb-2 lg:text-xl">
+                <div className="flex justify-center items-baseline prata pb-2  lg:text-xl">
                     <span>{remainingTime.days}</span>
                     <span className='leading-[23px]  px-[2px]' >&nbsp;nap &nbsp;:&nbsp; </span>
-                    <span className='two-numbers text-center'>{remainingTime.hours}</span>
-                    <span className='leading-[23px]  px-[2px]' >&nbsp;óra &nbsp;:&nbsp; </span>
-                    <span className='two-numbers  text-center' >{remainingTime.minutes} </span>
-                    <span className='leading-[23px]  px-[2px]' >&nbsp;perc &nbsp;:&nbsp; </span>
-                    <span className='two-numbers  text-center' >{remainingTime.seconds} </span>
-                    <span className='leading-[23px]  px-[2px]' >&nbsp;másodperc </span>
+                    <span className='two-numbers leading-[23px] text-center'>{remainingTime.hours}</span>
+                    <span className='px-[2px]' >&nbsp;óra &nbsp;:&nbsp; </span>
+                    <span className='two-numbers leading-[23px]  text-center' >{remainingTime.minutes} </span>
+                    <span className='px-[2px]' >&nbsp;perc &nbsp;:&nbsp; </span>
+                    <span className='two-numbers leading-[23px]
+                    +  text-center' >{remainingTime.seconds} </span>
+                    <span className='px-[2px]' >&nbsp;másodperc </span>
                 </div>
             </motion.div>
         </AnimatePresence>
