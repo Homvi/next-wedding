@@ -45,9 +45,9 @@ const Plan = () => {
             {/*  <span className='w-[60px] m-2 absolute md:hidden top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1Green} /></span>
             <span className='w-[60px] m-2 absolute md:hidden rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2Green} /></span> */}
 
-            <div className="text-center w-[100%] items-center  flex flex-col">
+            <div className="text-center w-[100%] items-center tracking-wide flex flex-col">
 
-                <h1 className='uppercase text-3xl md:text-4xl  tracking-wider mt-3  luthier-regular' >Menetrend</h1>
+                <h1 className='uppercase text-3xl md:text-4xl   mt-3 tracking-wider luthier-regular' >Menetrend</h1>
                 <div className=" hidden  mb-10 md:flex flex-col md:flex-row justify-center h-10 w-[100%]">
                     <Image width={130} src={leaf_white} />
                 </div>
