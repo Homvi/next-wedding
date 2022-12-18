@@ -46,6 +46,12 @@ function MyCarousel(props) {
             src: "/assets/img/sokoroHouse.jpg",
             name: "Sokoró Fogadó - lakodalmas helyszín",
         },
+        {
+            width: 1920,
+            height: 1080,
+            src: "/assets/img/luxcode.png",
+            name: "Luxcode - webfejlesztés",
+        },
     ]
 
     return (
