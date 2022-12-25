@@ -26,7 +26,7 @@ const Plan = () => {
                 </div>
 
                 {/* maiden request */}
-                <div className="row flex  relative w-full  ">
+                <div className="row flex  relative w-full ">
                     {/* time */}
                     <div className="felx relative flex-col h-full w-[40%]">
                         <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >13:00</span>
@@ -36,6 +36,7 @@ const Plan = () => {
                         <div className="flex items-start flex-col justify-start pb-5 w-full">
                             <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
                                 <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                <div className="absolute  top-[-2px] left-[-6px] w-[10px] text-left h-[10px]  rounded-full "></div>
                                 Lánykikérés
                             </p>
                             <p className='libre-italic  pl-10 md:pl-20 w-full' ><a target="_blank" href={adresses.maidenRequest} rel="noopener noreferrer">8111 Seregélyes Ady Endre utca 99</a> </p>
