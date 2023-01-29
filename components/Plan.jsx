@@ -2,29 +2,6 @@ import Image from 'next/image'
 import leaf_white from "../public/assets/icon/level_feher.svg"
 import leaf_green from "../public/assets/icon/level_zold.svg"
 
-/* import maiden from "../public/assets/icon/white/lanykikeres.svg"
-import churc from "../public/assets/icon/white/templom.svg"
-import dance from "../public/assets/icon/white/menyecsketanc.svg"
-import cake from "../public/assets/icon/white/torta.svg"
-import dinner from "../public/assets/icon/white/vacsora.svg"
-import guest from "../public/assets/icon/white/vendegvaras.svg"
-import civil from "../public/assets/icon/white/polgari.svg"
-import flower1 from "../public/assets/icon/white/virag1.svg"
-import flower2 from "../public/assets/icon/white/virag2.svg"
-
-import maidenGreen from "../public/assets/icon/green/lanykikeres.svg"
-import churcGreen from "../public/assets/icon/green/templom.svg"
-import danceGreen from "../public/assets/icon/green/menyecsketanc.svg"
-import cakeGreen from "../public/assets/icon/green/torta.svg"
-import dinnerGreen from "../public/assets/icon/green/vacsora.svg"
-import guestGreen from "../public/assets/icon/green/vendegvaras.svg"
-import civilGreen from "../public/assets/icon/green/polgari.svg"
-import flower1Green from "../public/assets/icon/green/virag1.svg"
-import flower2Green from "../public/assets/icon/green/virag2.svg" */
-
-
-
-
 const Plan = () => {
 
 
@@ -37,13 +14,6 @@ const Plan = () => {
 
     return (
         <section className='py-5 w-[95vw]  relative min-h-screen items-center text-center  flex flex-col' >
-            {/* flowers for flip scale-x-[-1] */}
-            {/* dekstop */}
-            {/*  <span className='w-[80px] m-2 hidden md:block absolute top-10 left-[-35px] sm:left-[-75px] sm:w-[110px]' ><Image src={flower1} /></span>
-            <span className='w-[80px] m-2 hidden md:block absolute rotate-[330deg] top-[500px] right-[-35px] sm:right-[-85px] sm:w-[150px]' ><Image src={flower2} /></span> */}
-            {/* mobile */}
-            {/*  <span className='w-[60px] m-2 absolute md:hidden top-10 left-[-35px] sm:left-[-60px] sm:w-[110px]' ><Image src={flower1Green} /></span>
-            <span className='w-[60px] m-2 absolute md:hidden rotate-[330deg] top-[500px] right-[-35px] sm:right-[-75px] sm:w-[150px]' ><Image src={flower2Green} /></span> */}
 
             <div className="text-center w-[100%] items-center tracking-wide flex flex-col">
 
@@ -56,7 +26,7 @@ const Plan = () => {
                 </div>
 
                 {/* maiden request */}
-                <div className="row flex  relative w-full  ">
+                <div className="row flex  relative w-full ">
                     {/* time */}
                     <div className="felx relative flex-col h-full w-[40%]">
                         <span className='libre-italic flex  h-full justify-end pr-10 md:pr-20 text-[#ffbd59] text-2xl' >13:00</span>
@@ -66,6 +36,7 @@ const Plan = () => {
                         <div className="flex items-start flex-col justify-start pb-5 w-full">
                             <p className=' text-2xl  libre-italic w-full flex flex-col pl-10 md:pl-20 relative ' >
                                 <div className="absolute  top-2 left-[-6px] w-[10px] text-left h-[10px]  rounded-full bg-[#ffbd59]"></div>
+                                <div className="absolute  top-[-2px] left-[-6px] w-[10px] text-left h-[10px]  rounded-full "></div>
                                 Lánykikérés
                             </p>
                             <p className='libre-italic  pl-10 md:pl-20 w-full' ><a target="_blank" href={adresses.maidenRequest} rel="noopener noreferrer">8111 Seregélyes Ady Endre utca 99</a> </p>
