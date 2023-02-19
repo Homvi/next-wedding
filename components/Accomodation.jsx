@@ -31,8 +31,8 @@ const Accomodation = () => {
 
                 {/* sokoro -> */}
                 <div className="text-center m-5 mx-3 flex   flex-col justify-start items-center">
-                    <h3 className='luthier-italic text-2xl text-[#ffbd59]' >Sokoró Fogadó, Sokorópátka</h3>
-                    <p className='luthier-italic text-cente my-1 text-lg' >/10 férőhely/</p>
+                    <h3 className='luthier-italic text-2xl text-[#ffbd59] line-through' >Sokoró Fogadó, Sokorópátka</h3>
+                    <p className='luthier-italic text-cente my-1 text-lg line-through' >/10 férőhely/</p>
                     <div className='flex relative items-center'>
                         <span className='hidden md:block mr-1  absolute left-[-20px]'>
                             <Image width={16} height={16} src={location_white} />
@@ -61,7 +61,7 @@ const Accomodation = () => {
                         </span>
                         <p className="text-center my-1 text-lg libre"><a href="mailto: sokorofogado@gmail.com"> sokorofogado@gmail.com</a></p>
                     </div>
-                    <p className='luthier-italic text-center my-1 text-lg' >Brigi & Kálmi esküjére hivatkozva tudtok itt foglalni
+                    <p className='luthier-italic text-center my-1 text-xl text-[#ffbd59]' >Sajnos nincs több szabad hely!
                     </p>
                 </div>
                 {/* <- sokoro */}
